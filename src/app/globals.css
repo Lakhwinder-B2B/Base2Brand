@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'Manrope', sans-serif !important;
+}
+h1, h2, h3 ,h4, h5, h6{
+  font-family: 'Manrope', sans-serif !important;
+}
+ul.flex li a {
+    font-weight: 100;
+    text-decoration: auto;
+}
+.bggray{
+  background: #1B1B1B;
+}
+button.btn.btn-outline-primary i {
+    display: none;
+}
+button.btn.btn-outline-primary:hover i {
+    transition: 0.4s;
+    display: block !important;
+}
+button.btn.btn-outline-primary:hover{
+background:#071c4d;
+border: 2px solid #F47B52;
+box-shadow:0px 2px 30px #F47B52;
+transition: 0.4s;
+padding: 12px 43px;
+}
+button.btn.btn-outline-primary {
+    border: 3px solid #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px 43px;
+}
+ .text_primary{
+ color:#F47B52 !important;
+ }
+ 
+.bg_home{
+background:#111616;
+padding-top:3rem;
+}
+.heading_lable h2 {
+    font-size: 52px;
+    color: #F47B52;
+}
+.Typewriter span{
+  font-size:96px;
+color:#fff;
+}
+.heading_lable h1{
+font-size:96px;
+color:#fff;
+}
+.banner_icon_section, .icon_three{
+margin-bottom:7rem;
+}
+
+
+img.polygon {
+    width: 20px;
+    margin-left: 1rem;
+}
+
+
+img.social_logo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 4rem;
+}
+.service_box img {
+    border-radius: 10px 10px 0px 0px;
+    width:100%;
+}
+.desc_box {
+    color: #fff;
+}
+.desc_box p{
+    font-weight: 100;
+    color: #fff;
+}
+.service_box {
+    border: 2px solid #999999;
+    border-radius: 15px;
+    background:#000;
+}
+h2.heading {
+    font-size: 55px;
+    color: #fff;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.desc_box a{
+font-weight:500;
+cursor:pointer;
+}
+
+@media screen and (max-width: 991px) {
+.logo_brand{
+  display:block !important;
+}
+.nav-link .d-flex.justify-content-between {
+  display: block !important;
+}
+.heading_lable h2 {
+  font-size: 30px !important;
+}
+.Typewriter span{
+  font-size: 36px !important;
+}
+}
