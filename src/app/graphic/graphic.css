@@ -80,11 +80,7 @@ button.radius {
     border-radius: 30px;
     margin: 10px auto;
 }
-a.bg-transparent {
-    text-decoration: none;
-    border-width: 2px !important;
-}
-button.radius:hover,a.bg-transparent:hover  {
+button.radius:hover {
     background: #F47B52 !important;
     border-color: #F47B52 !important;
 }
@@ -93,6 +89,29 @@ button.radius:hover,a.bg-transparent:hover  {
     padding: 2em;
     border: 4px solid #F47B52;
 }
+.column {
+    min-height: 500px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.graphic-services .inner-create {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1800px) {
+    .graphic-services .inner-create {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .graphic-services .inner-create {
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width:1200px) {
     .graphic-ser-head p {
         max-width: 70%;

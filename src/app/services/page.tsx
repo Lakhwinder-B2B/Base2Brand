@@ -26,6 +26,8 @@ export default function services() {
       backgroundSize: 'cover',
       position: 'relative',
     }}>
+
+    
         <div className="container mx-auto pt-4 pb-5">
           <div className="row align-items-center"> 
             <div className="col-md-12 text-center heading_lable" data-aos="fade-up">
@@ -54,8 +56,7 @@ export default function services() {
         <Feedback />
         <Faq />
         <Footer />
-       
-      </div>
+     </div>
     </>
   );
 }

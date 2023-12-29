@@ -14,10 +14,10 @@ export default function Header() {
         <div className="col-md-3">
         <img src={logo.src} className="FooterLogo" alt="logo"/>
         <div className='social d-flex gap-4 mt-4'>
-            <a><img src={Facebook.src} className="SocialIcon" alt="Facebook"/> </a>
-            <a><img src={Twitter.src} className="SocialIcon" alt="Twitter"/> </a>
-            <a><img src={Instagram.src} className="SocialIcon" alt="Instagram"/> </a>
-            <a><img src={Linkedin.src} className="SocialIcon" alt="Linkedin"/> </a>
+            <a href="https://www.facebook.com/TechBase2Brand/"><img src={Facebook.src} className="SocialIcon" alt="Facebook"/> </a>
+            <a href="https://twitter.com/techBase2Brand"><img src={Twitter.src} className="SocialIcon" alt="Twitter"/> </a>
+            <a href="https://www.instagram.com/techbase2brand/?hl=en"><img src={Instagram.src} className="SocialIcon" alt="Instagram"/> </a>
+            <a href="https://in.linkedin.com/company/techbase2brand"><img src={Linkedin.src} className="SocialIcon" alt="Linkedin"/> </a>
         </div>
         </div>
         <div className="col-md-3 footerMenu">

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import logo from '../public/img/logo.png';
 import './footer.css'
 import { usePathname } from 'next/navigation';
+import './header.css'
 export default function Header() {
 const currentRoute = usePathname();
 
@@ -42,6 +43,9 @@ const currentRoute = usePathname();
                     </li>
                     <li>
                         <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Outsourcing</a>
+                    </li>
+                    <li className={currentRoute === "/graphic" ? "active" : "non-active"}>
+                        <a href="/graphic" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Graphic</a>
                     </li>
                     <li>
                         <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Knowledge Center</a>

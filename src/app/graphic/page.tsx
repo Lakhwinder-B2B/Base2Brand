@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import { React, useEffect } from "react";
 import Header from "../../../component/header";
 import Footer from "../../../component/footer";
 import Creative from "../creative";
@@ -16,8 +16,17 @@ import Quote from "../request-quote";
 import '../graphic/graphic.css'
 
 import Graphicbg from '../../../public/graphic-bg/graphic.png'; 
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 export default function graphic() {
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
+
 
   return (
     <>
@@ -26,7 +35,7 @@ export default function graphic() {
         <div className="graphic-banner">
           <div className="container mx-auto pt-4 pb-5">
             <div className="row align-items-center"> 
-              <div className="col-sm-12">
+              <div className="col-sm-12" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500">
                   <img className="banner-bg" src={Graphicbg.src} alt="" />
               </div>
             </div>
