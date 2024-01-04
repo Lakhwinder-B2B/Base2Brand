@@ -52,7 +52,7 @@ export default function Header() {
                 <li><a href='/seo'>Search Engine Optimization</a></li>
                 <li>Social Media Management</li>
                 <li><a href='/youtube'>YouTube Marketing</a></li>
-                <li>Online Reputation Management</li>
+                <li><a href='/online-reputation'>Online Reputation Management</a></li>
             </ul>
         </div>
         <div className="col footerMenu">

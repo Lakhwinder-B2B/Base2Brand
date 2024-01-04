@@ -1,11 +1,11 @@
 'use client'
 
-import React from "react"; 
-import BestSeo from "../../../public/seo/best.png"
+import React from "react";  
 import Revenue1 from "../../../public/googlePPC-img/revenue1.png";
 import Revenue2 from "../../../public/googlePPC-img/revenue2.png";
 import Revenue3 from "../../../public/googlePPC-img/revenue3.png";
 import Revenue4 from "../../../public/googlePPC-img/revenue4.png";
+import "../../app/seo/seo.css"
 
 export default function revenue() {
    
@@ -52,21 +52,7 @@ export default function revenue() {
             
         </div>
 
-        <div className="row mt-5 pt-5">
-            <div className="col-md-6 text-white mt-5">
-                <h1 className="mb-5">Best SEO Executives in Mohali</h1>
-                <p className="mt-4">We get that website search engine optimization (SEO) can be baffling, so at Base 2 Brand, <br /> we endeavor to make our SEO services simple.</p>
-                <p className="mt-4">Our group of Mohali SEO specialists stir day by day to stay aware of the most recent <br /> patterns and procedures, just as we keep steady for over 600+ yearly updates <br /> Google makes to their inquiry calculation.</p>
-                <p className="mt-4">We utilize this information to offer unsurprising and feasible development by following <br /> a very defined and straightforward interaction.</p>
-                <div className="mt-5">
-                <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
-
-                </div>
-            </div>
-            <div className="col-md-6 text-center">
-                <img className="w-75 m-auto" src={BestSeo.src} alt="" />
-            </div>
-        </div>
+     
       </div> 
     </>
   )

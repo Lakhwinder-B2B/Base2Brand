@@ -55,7 +55,9 @@ img.arrow {
     top: 3px;
 }
 
-
+.removeBgTransprint{
+    background: transparent !important;
+}
 /* about css */
 .accordion-item {
     background: transparent !important;

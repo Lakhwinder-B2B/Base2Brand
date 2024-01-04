@@ -6,6 +6,7 @@ import Header from '../../../component/header';
 import "../../app/seo/seo.css"
 import SeoAccordion from '../../app/seo/seo-accordion';    
 import Revenue from '../../app/seo/revenue';    
+import Bestseo from '../../app/seo/bestseo';    
 import Seoprocess from '../../app/seo/seo-process';    
 import OurProject from '../../app/our-project';    
 import Technologystack from '../../app/seo/technologystack';    
@@ -37,6 +38,7 @@ export default function seo() {
     </div>
     <SeoAccordion />
     <Revenue />
+    <Bestseo />
     <Seoprocess />
     <OurProject />
     <Technologystack />
