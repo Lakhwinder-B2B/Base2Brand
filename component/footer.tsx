@@ -48,10 +48,10 @@ export default function Header() {
         <div className="col footerMenu">
         <h5>Digital Marketing</h5>
             <ul>
-                <li>PPC Management</li>
-                <li>Search Engine Optimization</li>
+                <li><a href='/googlePPC'>PPC Management</a></li>
+                <li><a href='/seo'>Search Engine Optimization</a></li>
                 <li>Social Media Management</li>
-                <li>YouTube Marketing</li>
+                <li><a href='/youtube'>YouTube Marketing</a></li>
                 <li>Online Reputation Management</li>
             </ul>
         </div>
@@ -68,7 +68,7 @@ export default function Header() {
         <div className="col footerMenu">
         <h5>Other Services</h5>
             <ul>
-                <li>Graphic Design</li>
+                <li><a href='/graphic'>Graphic Design</a></li>
                 <li>App Development</li>
                 <li>E-Commerce</li>
                 <li>Hybrid Apps</li>
