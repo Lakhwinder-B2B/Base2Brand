@@ -80,14 +80,17 @@ button.radius {
     border-radius: 30px;
     margin: 10px auto;
 }
-button.radius:hover {
-    background: #F47B52 !important;
-    border-color: #F47B52 !important;
+.quote-box button:hover {
+    background: #071c4d;
+    border: 1px solid #F47B52;
+    box-shadow: 0px 2px 30px #F47B52;
+    transition: 0.4s;
+    padding: 12px 43px;
 }
 .quote-box {
     background: #251c30;
     padding: 2em;
-    border: 4px solid #F47B52;
+    border: 3px solid #F47B52;
 }
 .column {
     min-height: 500px;

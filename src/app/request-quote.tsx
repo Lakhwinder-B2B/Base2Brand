@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 
 import React from "react";   
-
+import "../../src/app/quote.css";
 export default function graphicservices() {
  
   
