@@ -3,6 +3,8 @@
 import React from "react";
 import Header from "../../../component/header";
 import Audience from "../../../src/app/audience";
+import Ytube from "../../../src/app/youtube-columns"
+import Utubesingle from "../../../src/app/youtube-singlecol";
 import Feedback from "../feedback"; 
 import Faq from "../../../src/app/faq";
 import Quote from "../request-quote";
@@ -24,7 +26,8 @@ export default function marketing() {
 
         </div> 
         <Audience/>
-   
+        <Ytube/>
+        <Utubesingle/>
         <Feedback/>
         <Faq/>
         <Quote/>
