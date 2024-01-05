@@ -1,6 +1,7 @@
 'use client'
 
-import {React, useEffect } from "react";
+import React from "react";
+// import { useEffect } from "react";
 import Header from '../../component/header'
 import Footer from '../../component/footer'
 import OurServices from '../app/our-services'
@@ -33,12 +34,12 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({
-         duration: 800,
-         once: false,
-       })
- }, [])
+//   useEffect(() => {
+//     AOS.init({
+//          duration: 800,
+//          once: false,
+//        })
+//  }, [])
   const settings = {
     dots: false,
     arrows : false,

@@ -17,7 +17,7 @@ export default function Patner() {
 <div className="row text-white align-items-center">
     <div className="col-md-6" data-aos="fade-left">
         <h1 className='agency_heading'>We are  <img className='shopify_img' src={shopify.src} alt="" /> Agency</h1>
-        <p className='desc_service'>As a leading Shopify development company, we specialize in providing comprehensive Shopify development services tailored to meet the unique needs of your business. Whether you're establishing a new online store or looking to enhance your existing Shopify website, our expert team is here to bring your vision to life.</p>
+        <p className='desc_service'>As a leading Shopify development company, we specialize in providing comprehensive Shopify development services tailored to meet the unique needs of your business. Whether you&apos;re establishing a new online store or looking to enhance your existing Shopify website, our expert team is here to bring your vision to life.</p>
     </div>
     <div className="col-md-6" data-aos="flip-right">
     <img className='patner_img w-100' src={patner.src} alt="" />

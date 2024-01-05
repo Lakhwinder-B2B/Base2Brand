@@ -14,7 +14,7 @@ export default function onlinereputation() {
                         <div className="col-md-6 text-white">
                             <h2>Save Your Brand from Negative Publicity</h2>
                             <p>Credit cards can be used to pay for our services through one of the <br /> most trusted and secure payment methods in the world.<br />
-                                To make your payment, you don't have to register.</p>
+                                To make your payment, you don&apos;t have to register.</p>
                             <div className="row mt-5">
                                 <div className="col-md-1">
                                     <img src={Tag.src} className="tag_line" alt="" />

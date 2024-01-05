@@ -25,7 +25,7 @@ export default function marketing() {
     <>
       <Header />
       <div className="bg_home pt-5 pb-5">
-        <div className="google"  styles={{ backgroundImage:`url(${PPCMask})` }}>
+        <div className="google"  style={{ backgroundImage:`url(${PPCMask})` }}>
         <div className="container mx-auto pt-4 pb-5">
           <div className="row align-items-center"> 
             <div className="col-12 heading_lable d-flex flex-wrap justify-content-center" data-aos="fade-up">
