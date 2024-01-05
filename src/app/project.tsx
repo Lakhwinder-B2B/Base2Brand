@@ -16,12 +16,12 @@ export default function home() {
     <>  
       <div className="container-fluid p-4 pb-5">
         <div className="row">
-          <div className="col-md-12 text-center mb-5" data-aos="fade-up">
+          <div className="col-md-12 text-center mb-5"  >
             <h2 className="heading">Our Services</h2>
           </div>
           
           <div className="row">
-            <div className="col-md-6" data-aos="fade-left">
+            <div className="col-md-6"  >
           <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <li className="nav-item" role="presentation">
             <a className="nav-link active project" id="pills-digital-tab" data-bs-toggle="pill" data-bs-target="#pills-digital" type="button" role="tab" aria-controls="pills-digital" aria-selected="true">             
@@ -77,14 +77,14 @@ export default function home() {
           </li>
           </div> 
         </div>
-        <div className="col-md-6" data-aos="fade-right">
+        <div className="col-md-6"  >
 <div className="tab-content" id="pills-tabContent">
-  <div className="tab-pane fade show active" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
+  <div className="tab-pane fades show active" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
   <img className="active_img w-100" src={digital.src} alt="Search Engine Optimization" />
   </div>
-  <div className="tab-pane fade" id="pills-Commerce" role="tabpanel" aria-labelledby="pills-Commerce-tab"></div>
-  <div className="tab-pane fade" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab"></div>
-  <div className="tab-pane fade" id="pills-APP" role="tabpanel" aria-labelledby="pills-APP-tab"></div>
+  <div className="tab-pane fades" id="pills-Commerce" role="tabpanel" aria-labelledby="pills-Commerce-tab"></div>
+  <div className="tab-pane fades" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab"></div>
+  <div className="tab-pane fades" id="pills-APP" role="tabpanel" aria-labelledby="pills-APP-tab"></div>
   
 </div>
         </div>

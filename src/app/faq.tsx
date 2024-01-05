@@ -13,7 +13,7 @@ export default function FAQ() {
         <div className="p-5 pb-0 bg_patner"> 
     <div className="container-fluid pb-5 position-relative">
       <div className="row">
-        <div className="col-md-12 text-center mt-5" data-aos="fade-down">
+        <div className="col-md-12 text-center mt-5" data-aos="fades-down">
             <h2 className='text-white'>Answers To Some Questions You May Have</h2>
         </div>
         <div className="col-md-6">

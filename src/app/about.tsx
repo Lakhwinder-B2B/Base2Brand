@@ -10,10 +10,10 @@ export default function home() {
     <>  
       <div className="container-fluid p-5 pb-5"> 
           <div className="row"> 
-            <div className="col-md-6 text-center "  data-aos="flip-left">
+            <div className="col-md-6 text-center "   >
             <img className="w-75 m-auto" src={about.src} alt="Product" />
             </div> 
-            <div className="col-md-6 text-white"  data-aos="fade-right">
+            <div className="col-md-6 text-white"   >
               <h1>About Us</h1> 
               <h3 className="sub_story">Our Story</h3>
               <p>Since 2016, Base2Brand has evolved and adapted new terms of the web, while providing custom-tailored and contemporary designs, development, and DIGITAL MARKETING SOLUTIONS to our clients in several Internet Marketing Areas. </p>

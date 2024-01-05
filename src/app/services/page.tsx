@@ -30,7 +30,7 @@ export default function services() {
     
         <div className="container mx-auto pt-4 pb-5">
           <div className="row align-items-center"> 
-            <div className="col-md-12 text-center heading_lable" data-aos="fade-up">
+            <div className="col-md-12 text-center heading_lable" data-aos="fades-up">
               <Typewriter
                 options={{
                   strings: ["Shopify"],
