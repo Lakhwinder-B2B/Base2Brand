@@ -10,17 +10,17 @@ export default function home() {
     <>  
       <div className="container-fluid p-5 pb-5"> 
           <div className="row"> 
-            <div className="col-md-6 text-center "  data-aos="flip-left">
+            <div className="col-md-6 text-center "   >
             <img className="w-75 m-auto" src={about.src} alt="Product" />
             </div> 
-            <div className="col-md-6 text-white"  data-aos="fade-left">
-              <h1>About Us</h1>
+            <div className="col-md-6 text-white"   >
+              <h1>About Us</h1> 
               <h3 className="sub_story">Our Story</h3>
               <p>Since 2016, Base2Brand has evolved and adapted new terms of the web, while providing custom-tailored and contemporary designs, development, and DIGITAL MARKETING SOLUTIONS to our clients in several Internet Marketing Areas. </p>
               <div className="accordion accordion-flush" id="accordionFlushExample">
   <div className="accordion-item">
     <h2 className="accordion-header" id="flush-headingOne">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      <button className="accordion-button collapsed removeBgTransprint" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
       Our Mission
       </button>
     </h2>
@@ -30,7 +30,7 @@ export default function home() {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="flush-headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      <button className="accordion-button collapsed removeBgTransprint" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
       Our Vision
       </button>
     </h2>
@@ -40,7 +40,7 @@ export default function home() {
   </div>
   <div className="accordion-item">
     <h2 className="accordion-header" id="flush-headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      <button className="accordion-button collapsed removeBgTransprint" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
       Our Values
       </button>
     </h2>

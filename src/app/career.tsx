@@ -23,7 +23,7 @@ export default function home() {
               </div>
               <div className="col-md-9 mx-auto text-center">
                   <h2>For Career</h2>
-                  <h1 className="mt-4 mb-4">WHAT WE'RE <span className="graydiant_text">LOOKING</span> FOR ?</h1>
+                  <h1 className="mt-4 mb-4">WHAT WE&apos;RE <span className="graydiant_text">LOOKING</span> FOR ?</h1>
                   <p className="mb-5 line-height">A career at Base2Brand is more than just a job — it’s an opportunity to shape the future. <br /> Our company was built on a set of four core values which make that possible: trust, <br /> customer success, innovation, and equality. Join us to discover a future of opportunities.</p>
                   <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> We are Hiring </button>
               </div>

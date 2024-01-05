@@ -22,7 +22,7 @@ export default function graphicservices() {
   return (
     <>  
     <div className="p-5 client"> 
-            <div className="graphic-ser-head text-white text-center" data-aos="fade-up">
+            <div className="graphic-ser-head text-white text-center" data-aos="fades-up">
                 <h1>OUR CLIENTS</h1>
             </div>
             <div className="row client-box mt-5 align-items-center justify-content-center">

@@ -26,3 +26,7 @@ li.active {
 .p-5.borderbottom {
     border-bottom: 1px solid #525151;
 }
+.col.footerMenu ul li a {
+    color: #fff !important;
+    text-decoration: auto;
+}

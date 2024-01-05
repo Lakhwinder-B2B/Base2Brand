@@ -15,7 +15,7 @@ export default function home() {
           <div className="col-md-3">
             <h1>Our Purpose and Motive with Execution Techniques</h1>
           </div>
-          <div className="col-md-3"  data-aos="flip-left">
+          <div className="col-md-3"   >
             <div className="purpose">
             <img className="icon_our" src={Strategy.src} alt="Product" /> 
               <h4>Our Strategy</h4>
@@ -23,7 +23,7 @@ export default function home() {
             </div>
           </div>
 
-          <div className="col-md-3"  data-aos="flip-left"> 
+          <div className="col-md-3"   > 
             <div className="purpose">
             <img className="icon_our" src={Execution.src} alt="Product" /> 
               <h4>The Execution</h4>
@@ -31,7 +31,7 @@ export default function home() {
             </div>
           </div>
 
-          <div className="col-md-3"  data-aos="flip-left">
+          <div className="col-md-3"   >
             <div className="purpose">
             <img className="icon_our" src={Optimization.src} alt="Product" /> 
               <h4>The Optimization</h4>
@@ -39,7 +39,7 @@ export default function home() {
             </div>
           </div>
         </div>
-        <div className="row text-white mt-5 pt-5"  data-aos="fade-right">
+        <div className="row text-white mt-5 pt-5"  >
           <div className="col-md-4 text-left">
             <h1>Do not be wise in words</h1>
             <p className="mb-5 mt-4">Implementing the famous proverb “Do not be wise in words, be wise in deeds”, we believe that results speak for themselves!</p>

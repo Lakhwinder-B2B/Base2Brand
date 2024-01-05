@@ -51,7 +51,7 @@ export default function needhere() {
             <img src={logo3.src} alt="" />
             <div className="p-3 pb-5">
                 <h4 className='mt-3 mb-3'>Content Writing</h4>
-                <p className='font-weight-normal'>Content is the heart of your website. It's the basis for your SEO and why people visit it. Base2Brand will create...</p>
+                <p className='font-weight-normal'>Content is the heart of your website. It the basis for your SEO and why people visit it. Base2Brand will create...</p>
                 <a>Read More <i className="fa fa-arrow-right ml-2" aria-hidden="true"></i></a>
             </div>
         </div>

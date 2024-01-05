@@ -25,10 +25,10 @@ export default function marketing() {
     <>
       <Header />
       <div className="bg_home pt-5 pb-5">
-        <div className="google"  styles={{ backgroundImage:`url(${PPCMask})` }}>
+        <div className="google"  style={{ backgroundImage:`url(${PPCMask})` }}>
         <div className="container mx-auto pt-4 pb-5">
           <div className="row align-items-center"> 
-            <div className="col-12 heading_lable d-flex flex-wrap justify-content-center" data-aos="fade-up">
+            <div className="col-12 heading_lable d-flex flex-wrap justify-content-center" data-aos="fades-up">
               
 
               <p className="ppc_desc text-white text-center col-12 col-sm-8 mt-1 mb-5">
