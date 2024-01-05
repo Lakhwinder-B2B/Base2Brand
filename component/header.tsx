@@ -10,50 +10,63 @@ const currentRoute = usePathname();
   return (
     <header>
       
-    <nav className="border-gray-200 px-3 lg:px-5 py-3 Headerbggray">
-        <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xxl">
-            <a href="https://flowbite.com" className="flex items-center">
-            <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
-                
-            </a>
-            <div className="flex items-center lg:order-2">
-                <a href="#" className="bg-transparent hover:bg-dark text-white font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded-full">Call:- +91 836 011 6967</a> 
-                {/* <button data-collapse-toggle="mobile-menu-2" type="button" className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
-                    <span className="sr-only">Open main menu</span>
-                    <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-                    <svg className="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </button> */}
-            </div>
-            <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
-                <ul className="flex flex-col mt-3 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                    <li className={currentRoute === "/" ? "active" : "non-active"}>
-                        <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white" aria-current="page">Home</Link>
-                    </li>
-                    <li>
-                        <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">About Us</Link>
-                    </li>
-                    <li>
-                        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Career</a>
-                    </li>
-                    <li className={currentRoute === "/services" ? "active" : "non-active"}>
-                    <Link href="/services" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Services</Link>
-                    </li>
-                    <li className={currentRoute === "/digital-marketing" ? "active" : "non-active"}>
-                        <Link href="/digital-marketing"  className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Digital Marketing</Link>
-                    </li>
-                    <li>
-                        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Outsourcing</a>
-                    </li>
-                    <li className={currentRoute === "/graphic" ? "active" : "non-active"}>
-                        <a href="/graphic" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Graphic</a>
-                    </li>
-                    <li>
-                        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Knowledge Center</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <nav className="navbar navbar-expand-sm bg-dark navbar-dark pt-4 pb-4">
+  <div className="container-fluid">
+  <a href="https://flowbite.com" className="flex items-center navbar-brand pt-0">
+    <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
+</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul className="navbar-nav gap-10 align-items-center d-flex flex-wrap">
+      <li className="">
+        <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none" aria-current="page">
+            Home
+        </Link>
+        </li>
+        <li>
+        <Link href="/about" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">About Us</Link>
+        </li>
+        <li>
+        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Career</a>
+        </li>
+        
+        <li className="dropdown">
+        <Link href="/services" data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Services</Link>
+        <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Services 1</a></li>
+            <li><a className="dropdown-item" href="#">Services 2</a></li>
+            <li><a className="dropdown-item" href="#">Services 3</a></li>
+        </ul>
+        
+        </li>
+        <li className="dropdown">
+        <Link href="/digital-marketing" data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Digital Marketing</Link>
+            <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">Services 1</a></li>
+                <li><a className="dropdown-item" href="#">Services 2</a></li>
+                <li><a className="dropdown-item" href="#">Services 3</a></li>
+            </ul>
+        </li>
+        <li>
+        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Outsourcing</a>
+        </li>
+        <li className="">
+        <a href="/graphic" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Graphic</a>
+        </li>
+        <li>
+        <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Knowledge Center</a>
+        </li>  
+      </ul>
+    </div>
+
+    <div className="d-flex flex-wrap align-items-center">
+        <a href="#" className="bg-transparent hover:bg-dark text-white font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded-full">Call:- +91 836 011 6967</a> 
+    </div>
+            
+  </div>
+</nav>
 </header>
   )
 }
