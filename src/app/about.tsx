@@ -13,8 +13,8 @@ export default function home() {
             <div className="col-md-6 text-center "  data-aos="flip-left">
             <img className="w-75 m-auto" src={about.src} alt="Product" />
             </div> 
-            <div className="col-md-6 text-white"  data-aos="fade-left">
-              <h1>About Us</h1>
+            <div className="col-md-6 text-white"  data-aos="fade-right">
+              <h1>About Us</h1> 
               <h3 className="sub_story">Our Story</h3>
               <p>Since 2016, Base2Brand has evolved and adapted new terms of the web, while providing custom-tailored and contemporary designs, development, and DIGITAL MARKETING SOLUTIONS to our clients in several Internet Marketing Areas. </p>
               <div className="accordion accordion-flush" id="accordionFlushExample">

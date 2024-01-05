@@ -9,7 +9,7 @@ import '../online-reputation/online.css'
 export default function service() {
 
     return (
-        <>
+        <> 
             <div className="bg-black">
                 <div className="container-fluid p-5">
                     <div className="row">

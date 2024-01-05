@@ -22,7 +22,7 @@ export default function creative() {
             </div>
     </div>
     <div className="banner-video" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-        <iframe width="100%" height="600" src="http://player.vimeo.com/video/41406753?byline=0&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="600" src="http://player.vimeo.com/video/41406753?byline=0&amp" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     </div>
     
 </>

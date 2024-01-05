@@ -19,7 +19,7 @@ export default function home() {
           </div>
           
           <div className="row"> 
-          <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist"  data-aos="fade-left">
+          <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist"  data-aos="fade-up">
   <li className="nav-item" role="presentation">
     <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
   </li>
