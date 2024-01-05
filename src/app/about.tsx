@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react"; 
-import about from '../../public/img/about.png';   
+import About from '../../public/img/about.png';   
 import './our-project.css'
 
 export default function home() {
@@ -11,7 +11,7 @@ export default function home() {
       <div className="container-fluid p-5 pb-5"> 
           <div className="row"> 
             <div className="col-md-6 text-center "   >
-            <img className="w-75 m-auto" src={about.src} alt="Product" />
+            <img className="w-75 m-auto" src={About.src} alt="Product" />
             </div> 
             <div className="col-md-6 text-white"   >
               <h1>About Us</h1> 
