@@ -24,7 +24,7 @@ export default function marketing() {
               <button className="btn btn-outline-primary m-0"> Request a Quote </button>
             </div>
             <div className="about-ig=mg">
-              <img scr={About.src} alt="" />
+              <img src={About.src} alt="" />
             </div>
         </div>
 
