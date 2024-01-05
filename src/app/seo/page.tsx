@@ -39,6 +39,9 @@ export default function seo() {
     <SeoAccordion />
     <Revenue />
     <Bestseo />
+    <div className="col-md-12 text-center text-white mb-2">
+                <h2>Our SEO process deliver proven results</h2>
+            </div>
     <Seoprocess />
     <OurProject />
     <Technologystack />

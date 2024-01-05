@@ -36,7 +36,7 @@ export default function graphic() {
         <div className="graphic-banner">
           <div className="container mx-auto pt-4 pb-5">
             <div className="row align-items-center"> 
-              <div className="col-sm-12" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1500">
+              <div className="col-sm-12"  >
                   <img className="banner-bg" src={Graphicbg.src} alt="" />
               </div>
             </div>

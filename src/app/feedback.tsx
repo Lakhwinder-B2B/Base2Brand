@@ -22,9 +22,9 @@ export default function home() {
       <div className="container-fluid"> 
           <div className="row text-white"> 
               <div className="col-md-12 p-0">
-     <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel"> 
+     <div id="carouselExampleDark" className="carousel carousel-dark slide" > 
        <div className="carousel-inner">
-        <div className="carousel-item active" data-bs-interval="10000"> 
+        <div className="carousel-item active"  > 
         <div className="p-5 Mainslide">
          <div className="row">
           <div className="col-md-6 position-relative">

@@ -22,44 +22,44 @@ export default function graphicservices() {
   return (
     <>  
     <div className="p-5 client"> 
-            <div className="graphic-ser-head text-white text-center" data-aos="fades-up">
+            <div className="graphic-ser-head text-white text-center"  >
                 <h1>OUR CLIENTS</h1>
             </div>
             <div className="row client-box mt-5 align-items-center justify-content-center">
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client1.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"   >
                     <img src={Client2.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client3.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"   >
                     <img src={Client4.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client5.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"   >
                     <img src={Client6.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client7.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"   >
                     <img src={Client8.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client9.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"   >
                     <img src={Client10.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client11.src} alt="" />
                 </div>
-                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center" data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+                <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"   >
                     <img src={Client12.src} alt="" />
                 </div>
             </div>

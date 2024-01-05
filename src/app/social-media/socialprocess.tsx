@@ -15,6 +15,9 @@ export default function Seoprocess() {
       <div className="container-fluid p-5 mt-5"> 
        
         <div className="row"> 
+        <div className="col-md-12 text-center text-white mt-5 mb-5 pt-5">
+                <h2>Social media marketing process that drive results</h2>
+            </div> 
             <div className="col-md-12">
                 <div className="borderBox">
                     <div className="row align-items-center">
@@ -22,9 +25,8 @@ export default function Seoprocess() {
                             <img src={Process.src} className="w-100" alt="" />
                         </div>
                         <div className="col-md-9 pl-5">
-                            <h2 className="text_primary mb-4">Understand Your Market</h2>
-                            <p className="text-white">Our clients and new customers are not just a commodity. <br />
-                            We set aside the effort to comprehend your uniquetargeting market and how to drive the best outcomes inside it.</p>
+                            <h2 className="text_primary mb-4">Choose your service</h2>
+                            <p className="text-white">For lead generation, choose a social media strategy and schedule a call to one of our digital marketing specialists.</p>
                         </div>
                     </div>
                 </div>
@@ -35,8 +37,8 @@ export default function Seoprocess() {
                             <img src={Process1.src} className="w-100" alt="" />
                         </div>
                         <div className="col-md-9 pl-5">
-                            <h2 className="text_primary mb-4">Data Driven Process</h2>
-                            <p className="text-white">We do not guess. We use industry standard SEO analytics and proven SEO strategies to drive your campaign with complete facts.</p>
+                            <h2 className="text_primary mb-4">Service questionnaire</h2>
+                            <p className="text-white">Once you have become a Base2Brand client, you will need to complete a service setup form. This allows us to ask you questions about your business.</p>
                         </div>
                     </div>
                 </div>
@@ -47,8 +49,8 @@ export default function Seoprocess() {
                             <img src={Process2.src} className="w-100" alt="" />
                         </div>
                         <div className="col-md-9 pl-5">
-                            <h2 className="text_primary mb-4">Growth Obsessed</h2>
-                            <p className="text-white">Digital Marketing is not an expense, it is an investment in growth. We are not satisfied unless your campaign is delivering a significant ROI.</p>
+                            <h2 className="text_primary mb-4">Preparing for launch</h2>
+                            <p className="text-white">We conduct research on your company, create marketing strategies, design your creative, and dial in to your target customers.</p>
                         </div>
                     </div>
                 </div>
@@ -69,8 +71,8 @@ export default function Seoprocess() {
                             <img src={Process4.src} className="w-100" alt="" />
                         </div>
                         <div className="col-md-9 pl-5">
-                            <h2 className="text_primary mb-4">Ongoing Optimization</h2>
-                            <p className="text-white">Effective digital marketing strategies are not “set it and forget it”. Search algorithms & your competition are always changing.</p>
+                            <h2 className="text_primary mb-4">Ongoing Social Strategy Optimization</h2>
+                            <p className="text-white">Social media marketing is not a onetime thing. After implementing a strategy we look whether it is performing well or changes that we need to implement to make it perfect.</p>
                         </div>
                     </div>
                 </div>
