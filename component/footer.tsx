@@ -50,7 +50,7 @@ export default function Header() {
             <ul>
                 <li><a href='/googlePPC'>PPC Management</a></li>
                 <li><a href='/seo'>Search Engine Optimization</a></li>
-                <li>Social Media Management</li>
+                <li><a href='/social-media'>Social Media Management</a></li>
                 <li><a href='/youtube'>YouTube Marketing</a></li>
                 <li><a href='/online-reputation'>Online Reputation Management</a></li>
             </ul>
@@ -98,7 +98,7 @@ export default function Header() {
       </div>
       </div>
       <div className="text-center p-3">
-        <p className='m-0 text-white'>© 2023 base2brand.com  All rights reserved  </p>
+        <p className='m-0 text-white'>©2024 base2brand.com  All rights reserved  </p>
       </div>
 </footer>
   )
