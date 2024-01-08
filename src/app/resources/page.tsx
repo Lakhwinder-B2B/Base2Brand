@@ -5,6 +5,7 @@ import  React  from "react";
 import Header from "../../../component/header";
 import Footer from "../../../component/footer"; 
 import Resource from "../../../src/app/resource-columns";
+import ResourceTabs from "../../../src/app/resource-tab"
 import Feedback from "../feedback"; 
 import Faq from "../services/faq";   
 import Quote from "../request-quote";   
@@ -52,6 +53,7 @@ export default function resources() {
           </div> 
         </div> 
         <Resource/>
+        <ResourceTabs/>
         <Feedback />
         <Faq />
         <Quote/>
