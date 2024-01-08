@@ -53,7 +53,7 @@ Here at Base2Brand, we particularize in providing results-oriented integrated on
           </div>
 
           </div>
-
+          
         <AboutColumns/>
         <Team/>
         <Quote/>
