@@ -12,7 +12,7 @@ export default function home() {
       <div className="container-fluid p-5 pb-5"> 
           <div className="row"> 
             <div className="col-md-6 text-center "   >
-            <Image className="w-75 m-auto" src={About.src} alt="Product" />
+            <Image width={75} height={100} className="w-75 m-auto" src={About.src} alt="Product" />
             </div> 
             <div className="col-md-6 text-white"   >
               <h1>About Us</h1> 
