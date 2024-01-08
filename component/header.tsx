@@ -12,7 +12,7 @@ const currentRoute = usePathname();
       
     <nav className="navbar navbar-expand-sm bg-dark navbar-dark pt-4 pb-4">
   <div className="container-fluid">
-  <a href="https://flowbite.com" className="flex items-center navbar-brand pt-0">
+  <a href="/" className="flex items-center navbar-brand pt-0">
     <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
 </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -33,20 +33,19 @@ const currentRoute = usePathname();
         </li>
         
         <li className="dropdown">
-        <Link href="/services" data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Services</Link>
+        <a  data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Services</a>
         <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">Services 1</a></li>
-            <li><a className="dropdown-item" href="#">Services 2</a></li>
-            <li><a className="dropdown-item" href="#">Services 3</a></li>
+            <li><a className="dropdown-item" href="/services">Services</a></li>
+            <li><a className="dropdown-item"href="/services2">Our  Services</a></li> 
         </ul>
         
         </li>
         <li className="dropdown">
-        <Link href="/digital-marketing" data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Digital Marketing</Link>
+        <a  data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Digital Marketing</a>
             <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Services 1</a></li>
-                <li><a className="dropdown-item" href="#">Services 2</a></li>
-                <li><a className="dropdown-item" href="#">Services 3</a></li>
+                <li><a className="dropdown-item" href="/digital-marketing">Digital Marketing</a></li>
+                {/* <li><a className="dropdown-item" href="#">Services 2</a></li>
+                <li><a className="dropdown-item" href="#">Services 3</a></li> */}
             </ul>
         </li>
         <li>

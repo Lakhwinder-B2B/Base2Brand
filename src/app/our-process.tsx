@@ -4,7 +4,7 @@ import React from "react";
 import Count from '../../public/services2-img/count-bg.png'
 
 
-export default function home() {
+export default function OurProcess() {
     const myStyle = {
         backgroundImage: `url(${ Count })`,
         backgroundSize: "cover",
