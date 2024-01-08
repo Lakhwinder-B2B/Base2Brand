@@ -10,7 +10,7 @@ import Process from "../our-process";
 import Services2 from "../service2-section";
 import '../services2/services2.css'
 
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css';
 // import AOS from 'aos';
 
 export default function graphic() {
