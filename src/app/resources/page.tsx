@@ -4,6 +4,7 @@ import  React  from "react";
 // import { useEffect } from "react";
 import Header from "../../../component/header";
 import Footer from "../../../component/footer"; 
+import Resource from "../../../src/app/resource-columns";
 import Feedback from "../feedback"; 
 import Faq from "../services/faq";   
 import Quote from "../request-quote";   
@@ -18,8 +19,8 @@ export default function resources() {
       <Header />
       <div className="bg-black pt-5 pb-5">
         <div className="graphic-banner">
-          <div className="container mx-auto pt-4 pb-5">
-            <div className="row align-items-center"> 
+          <div className="mx-auto pt-4 pb-5">
+            <div className="row align-items-center m-0 pr-1 pl-1"> 
                 <div className="col-md-6 text-white">
                 <Typewriter 
                 options={{
@@ -50,7 +51,7 @@ export default function resources() {
             </div>
           </div> 
         </div> 
-
+        <Resource/>
         <Feedback />
         <Faq />
         <Quote/>
