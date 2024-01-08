@@ -44,8 +44,8 @@ const currentRoute = usePathname();
         <a  data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Digital Marketing</a>
             <ul className="dropdown-menu">
                 <li><a className="dropdown-item" href="/digital-marketing">Digital Marketing</a></li>
-                <li><a className="dropdown-item" href="#">Services 2</a></li>
-                <li><a className="dropdown-item" href="#">Services 3</a></li>
+                {/* <li><a className="dropdown-item" href="#">Services 2</a></li>
+                <li><a className="dropdown-item" href="#">Services 3</a></li> */}
             </ul>
         </li>
         <li>

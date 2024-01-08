@@ -69,7 +69,7 @@ export default function Header() {
         <h5>Other Services</h5>
             <ul>
                 <li><a href='/graphic'>Graphic Design</a></li>
-                <li>App Development</li>
+                <li><a href='/mobile-application'>App Development</a></li>
                 <li>E-Commerce</li>
                 <li>Hybrid Apps</li>
                 <li>Native IOS & Android</li>
@@ -78,11 +78,11 @@ export default function Header() {
             <div className="col footerMenu">
             <h5>Quick Links</h5>
             <ul>
-                <li>Services</li>
-                <li>About Us</li>
+                <li><a href='/services'>Services</a></li>
+                <li><a href='/about'>About Us</a></li>
                 <li>Blogs</li>
                 <li>Career</li>
-                <li>Resources</li>
+                <li><a href='/resources'>Resources</a></li>
                 </ul>
                 </div>
                 <div className="col footerMenu">
