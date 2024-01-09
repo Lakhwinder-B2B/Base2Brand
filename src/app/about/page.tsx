@@ -36,14 +36,14 @@ export default function marketing() {
             </div>
             <div className="d-flex flex-wrap justify-content-start align-items-center col-12 col-sm-12 col-md-6 mb-4">
               <h1 className="fs-3 font-light w-100 text-white text-left">Who are we?</h1>
-              <p className="w-100 text-white font-light text-left">Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.
+              <p className="w-100 text-white font-light text-left mb-5">Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.
 <br/><br/>
 Here at Base2Brand, we particularize in providing results-oriented integrated online marketing solutions for medium and large businesses across the globe. We facilitate businesses to build a sustainable and expressive association with clients. Experts at Base2Brand have the requisite talent and creativity to provide you with a Professional Online Marketing Strategy.</p>
               <button className="btn btn-outline-primary m-0"> Request a Quote </button>
             </div>
            
             <div className="row mb-5 mt-5"> 
-            <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4">
+            <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4 mt-5 pt-5">
               <h1 className="fs-3 font-light w-100 text-center text-white mb-4">Implementing the famous proverb</h1>
               <p className="w-100 text-center text-white">“Do not be wise in words, be wise in deeds”, we believe that results speak for themselves!</p>
             </div>

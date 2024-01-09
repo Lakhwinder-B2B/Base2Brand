@@ -6,6 +6,9 @@ import seo from '../../public/img/seo.png';
 import social from '../../public/img/social.png';  
 import online from '../../public/img/online.png'; 
 import digital from '../../public/img/digital.png';  
+import servicetab from '../../public/img/servicetab.png';  
+import servicetab1 from '../../public/img/servicetab1.png';  
+import servicetab2 from '../../public/img/servicetab2.png';  
 import './project.css'
 
 export default function home() {
@@ -82,9 +85,18 @@ export default function home() {
   <div className="tab-pane fades show active" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
   <img className="active_img w-100" src={digital.src} alt="Search Engine Optimization" />
   </div>
-  <div className="tab-pane fades" id="pills-Commerce" role="tabpanel" aria-labelledby="pills-Commerce-tab"></div>
-  <div className="tab-pane fades" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab"></div>
-  <div className="tab-pane fades" id="pills-APP" role="tabpanel" aria-labelledby="pills-APP-tab"></div>
+  <div className="tab-pane fades" id="pills-Commerce" role="tabpanel" aria-labelledby="pills-Commerce-tab">
+  <img className="active_img w-75 m-auto" src={servicetab.src} alt="Search Engine Optimization" />
+
+  </div>
+  <div className="tab-pane fades" id="pills-Graphic" role="tabpanel" aria-labelledby="pills-Graphic-tab">
+  <img className="active_img w-75 m-auto" src={servicetab1.src} alt="Search Engine Optimization" />
+
+  </div>
+  <div className="tab-pane fades" id="pills-APP" role="tabpanel" aria-labelledby="pills-APP-tab">
+  <img className="active_img w-75 m-auto" src={servicetab2.src} alt="Search Engine Optimization" />
+
+  </div>
   
 </div>
         </div>
