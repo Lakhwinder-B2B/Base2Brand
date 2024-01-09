@@ -40,7 +40,7 @@ export default function Big_Commerce() {
             <img src={Big2.src} alt="" />
             <div className="p-3 pb-3">
                 <h4 className='mt-3 mb-3 text_primary'>Shopline Theme Customization </h4>
-                <p className='font-weight-normal'>While Shopline offers a diverse range of pre-designed themes, businesses often have unique ideas that don't align with the available options. Our Shopline theme customization services allow you to create a visually captivating and one-of-a-kind storefront.</p>
+                <p className='font-weight-normal'>While Shopline offers a diverse range of pre-designed themes, businesses often have unique ideas that don&apos;t align with the available options. Our Shopline theme customization services allow you to create a visually captivating and one-of-a-kind storefront.</p>
            
             </div>
         </div>
@@ -51,7 +51,7 @@ export default function Big_Commerce() {
             <img src={Big3.src} alt="" />
             <div className="p-3 pb-3">
                 <h4 className='mt-3 mb-3 text_primary'>Shopline Integration</h4>
-                <p className='font-weight-normal'>In certain instances, you may need advanced features and functionalities to enhance your store's performance. Fortunately, Shopline's app store offers seamless integration with numerous third-party apps and services, providing the boost you need.</p>
+                <p className='font-weight-normal'>In certain instances, you may need advanced features and functionalities to enhance your store performance. Fortunately, Shopline app store offers seamless integration with numerous third-party apps and services, providing the boost you need.</p>
  
             </div>
         </div>
@@ -82,7 +82,7 @@ export default function Big_Commerce() {
             <img src={Big6.src} alt="" />
             <div className="p-3 pb-3">
                 <h4 className='mt-3 mb-3 text_primary'>Shopline Update</h4>
-                <p className='font-weight-normal'>As the digital world constantly evolves, it's crucial for your store to integrate the latest features and performance improvement tools to deliver a seamless user experience. Our Shopline custom development services offer regular updates to keep your store in sync with the latest advancements.</p>
+                <p className='font-weight-normal'>As the digital world constantly evolves, it&apos;s crucial for your store to integrate the latest features and performance improvement tools to deliver a seamless user experience. Our Shopline custom development services offer regular updates to keep your store in sync with the latest advancements.</p>
             </div>
         </div>
       </div>
