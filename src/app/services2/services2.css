@@ -58,7 +58,12 @@
 .bg-gray {
     background-color: #2d2d2d;
 }
-
+.process-col h1 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 3rem;
+}
 
 
 
