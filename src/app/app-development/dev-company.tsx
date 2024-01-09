@@ -29,7 +29,7 @@ export default function DevCompany() {
         </div>
         <div className="section_data">
         <h3 className='primary'>Seamless Integration</h3>
-        <p>In the dynamic e-commerce landscape, adaptability is key. At Base2Brand, we embrace change, staying updated on Shopify's latest and adapting to evolving industry trends and technologies. This dedication ensures your store not only meets current standards but is well-prepared for future challenges. Partnering with us means having a shopify website development company proactive in adapting to the digital marketplace's ever-evolving needs.</p>
+        <p>In the dynamic e-commerce landscape, adaptability is key. At Base2Brand, we embrace change, staying updated on Shopify latest and adapting to evolving industry trends and technologies. This dedication ensures your store not only meets current standards but is well-prepared for future challenges. Partnering with us means having a shopify website development company proactive in adapting to the digital marketplace ever-evolving needs.</p>
         </div>
         </div>
     </div>

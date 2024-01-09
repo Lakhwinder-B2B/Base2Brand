@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react";
-// import { useEffect } from "react";
+import { useEffect } from "react";
 import Header from '../../component/header'
 import Footer from '../../component/footer'
 import OurServices from '../app/our-services'
@@ -34,12 +34,12 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 export default function Home() {
-//   useEffect(() => {
-//     AOS.init({
-//          duration: 800,
-//          once: false,
-//        })
-//  }, [])
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
   const settings = {
     dots: false,
     arrows : false,
@@ -86,7 +86,7 @@ export default function Home() {
                   <img src={b2b1.src} className='banner_icon_section' />
                   <img src={b2b2.src} /> 
             </div>
-            <div className="col-md-8 text-center heading_lable pt-5 mt-5" > 
+            <div className="col-md-8 text-center heading_lable pt-5 mt-5" data-aos="fade-up" > 
               <h2>Design, Transform, Accelerate</h2> 
               <Typewriter 
                 options={{
