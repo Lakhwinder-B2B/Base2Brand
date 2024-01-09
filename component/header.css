@@ -33,9 +33,6 @@ div#collapsibleNavbar {
     position: relative;
     right: -8px;
 }
-.navbar-nav li > a {
-    padding: 10px 20px;
-}
 .dropdown-menu.show {
     padding: 0;
 }
@@ -45,10 +42,14 @@ div#collapsibleNavbar {
 .navbar-nav .dropdown:hover ul.show li > a {
     color: #000 !important;
 }
-.navbar-nav li > a {
+.navbar-nav li {
+    position:relative;
+    padding:0 20px;
+}
+.navbar-nav li a{
     position:relative;
 }
-.navbar-nav li > a::before {
+.navbar-nav li a::before {
     position: absolute;
     content: "";
     background: #F47B52;
@@ -58,8 +59,16 @@ div#collapsibleNavbar {
     -webkit-transition:all 0.4s linear;
     -moz-transition:all 0.4s linear;
     -ms-transition:all 0.4s linear;
+    bottom:-10px;
 }
 
-.navbar-nav li:hover > a::before {
+.navbar-nav li a:hover::before {
     width: 100%;
+}
+ul.dropdown-menu.show li {
+    padding: 0;
+}
+ul.dropdown-menu.show li.hover-menus a::before {
+    left: 0;
+    bottom: -2px;
 }
