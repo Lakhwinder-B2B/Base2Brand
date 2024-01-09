@@ -2,6 +2,7 @@ header{
     position:sticky;
     top:0;
     z-index:11;
+    border-bottom: 1px solid #fff;
 }
 a.bg-transparent {
     text-decoration: none;
