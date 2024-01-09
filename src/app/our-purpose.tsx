@@ -4,6 +4,7 @@ import React from "react";
 import Strategy from '../../public/img/Strategy.png';   
 import Execution from '../../public/img/Execution.png';   
 import Optimization from '../../public/img/Optimization.png';   
+import CountUp from 'react-countup';
 import './our-project.css'
 
 export default function home() {
@@ -47,19 +48,20 @@ export default function home() {
           </div>
           <div className="col borderLeft">
             <div className="borderGradiant position-relative">
-              <h1>85%</h1>
+              <h1><CountUp end={85} />%</h1> 
               <p>INCREASE IN ORGANIC WEBSITE TRAFFIC</p>
             </div>
             </div> 
             <div className="col borderLeft">
-            <div className="borderGradiant position-relative top-8">
-              <h1>90%</h1>
+            <div className="borderGradiant position-relative top-8"> 
+              <h1><CountUp end={90} />%</h1> 
+
               <p>MORE LEADS ONE-COMMERCE WEBSITE</p>
             </div>
             </div>
             <div className="col borderLeft">
             <div className="borderGradiant position-relative top-20">
-              <h1>96%</h1>
+            <h1><CountUp end={96} />%</h1>  
               <p>INCREASE IN NO. OF VIEWS ON YOUTUBE</p>
             </div>
             </div>

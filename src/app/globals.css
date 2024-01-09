@@ -1,23 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
+ body {
   font-family: 'Manrope', sans-serif !important;
 }
 h1, h2, h3 ,h4, h5, h6{
@@ -76,14 +57,10 @@ color:#fff;
 .banner_icon_section, .icon_three{
 margin-bottom:7rem;
 }
-
-
 img.polygon {
     width: 20px;
     margin-left: 1rem;
 }
-
-
 img.social_logo {
     width: 150px;
     height: 150px;
@@ -116,7 +93,9 @@ h2.heading {
 font-weight:500;
 cursor:pointer;
 }
+@media screen and (max-width: 1024px) {
 
+}
 @media screen and (max-width: 991px) {
 .logo_brand{
   display:block !important;
@@ -131,3 +110,7 @@ cursor:pointer;
   font-size: 36px !important;
 }
 }
+@media screen and (max-width: 767px) {
+  
+}
+ 

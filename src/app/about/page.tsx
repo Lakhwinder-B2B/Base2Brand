@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { useEffect } from "react"; 
 import Header from "../../../component/header";
 import AboutMask from "../../../public/about-img/about-mask.png";
 import About from "../../../public/about-img/about.png"
@@ -9,12 +10,20 @@ import About2 from "../../../public/about-img/about2.png"
 import AboutColumns from "../../../src/app/about-columns"
 import Team from "../.././app/team"
 import Quote from "../request-quote";
-
 import Footer from "../../../component/footer";
-
 import "../about/about.css";
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 export default function marketing() {
+
+  useEffect(() => {
+    AOS.init({
+         duration: 800,
+         once: false,
+       })
+ }, [])
+
   return (
     <>
       <Header />
