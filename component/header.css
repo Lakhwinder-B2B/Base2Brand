@@ -18,3 +18,48 @@ div#collapsibleNavbar {
 .dropdown-toggle{
     cursor: pointer;
 }
+.dropdown-menu.show li.hover-menus:hover ul.hover-menu-items {
+    position: absolute;
+    display: block;
+    content: "";
+    left: 172px;
+    margin-top: -30px;
+    padding:0;
+}
+.navbar-nav .dropdown-menu li.hover-menus a i {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 6px;
+    position: relative;
+    right: -8px;
+}
+.navbar-nav li > a {
+    padding: 10px 20px;
+}
+.dropdown-menu.show {
+    padding: 0;
+}
+.navbar-nav li:hover a {
+    color: #F47B52 !important;
+}
+.navbar-nav .dropdown:hover ul.show li > a {
+    color: #000 !important;
+}
+.navbar-nav li > a {
+    position:relative;
+}
+.navbar-nav li > a::before {
+    position: absolute;
+    content: "";
+    background: #F47B52;
+    width: 0;
+    height: 1px;
+    transition:all 0.4s linear;
+    -webkit-transition:all 0.4s linear;
+    -moz-transition:all 0.4s linear;
+    -ms-transition:all 0.4s linear;
+}
+
+.navbar-nav li:hover > a::before {
+    width: 100%;
+}

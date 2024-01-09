@@ -19,7 +19,7 @@ const currentRoute = usePathname();
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-      <ul className="navbar-nav gap-10 align-items-center d-flex flex-wrap">
+      <ul className="navbar-nav align-items-center d-flex flex-wrap">
       <li className="">
         <Link href="/" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none" aria-current="page">
             Home
@@ -36,24 +36,50 @@ const currentRoute = usePathname();
         <a  data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Services</a>
         <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="/services">Services</a></li>
-            <li><a className="dropdown-item"href="/services2">Our  Services</a></li> 
+            <li><a className="dropdown-item"href="/services2">Our Services</a></li> 
+            <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/digital-marketing">Digital Marketing <i className="fa fa-chevron-right"></i></a>
+              <ul className="dropdown-menu hover-menu-items">
+                <li><a className="dropdown-item" href="/seo">Search Engine Optimization</a></li>
+                <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
+                <li><a className="dropdown-item" href="#">Online Reputation Management</a></li>
+                <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
+              </ul>
+            </li>
+            <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/services2">Ecommercee <i className="fa fa-chevron-right"></i></a>
+              <ul className="dropdown-menu hover-menu-items">
+                <li><a className="dropdown-item" href="#">Magneto Development</a></li>
+                <li><a className="dropdown-item" href="/services2">Shopify Development</a></li>
+                <li><a className="dropdown-item" href="#">Woo Commerce Development</a></li>
+                <li><a className="dropdown-item" href="#">Open cart Development</a></li>
+              </ul>
+            </li> 
+            <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/graphic">Graphic Design <i className="fa fa-chevron-right"></i></a>
+              <ul className="dropdown-menu hover-menu-items">
+                <li><a className="dropdown-item" href="#">Website Redesign</a></li>
+                <li><a className="dropdown-item" href="#">Responsive Web Design</a></li>
+                <li><a className="dropdown-item" href="#">Video Animation</a></li>
+                <li><a className="dropdown-item" href="#">Mobile app designing</a></li>
+              </ul>
+            </li> 
+            <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/services2">App Development <i className="fa fa-chevron-right"></i></a>
+              <ul className="dropdown-menu hover-menu-items">
+                <li><a className="dropdown-item" href="#">Android App Development</a></li>
+                <li><a className="dropdown-item" href="#">IOS App Development</a></li>
+                <li><a className="dropdown-item" href="#">React Native Development</a></li>
+                <li><a className="dropdown-item" href="#">Hybrid App Development</a></li>
+              </ul>
+            </li> 
         </ul>
-        
         </li>
-        <li className="dropdown">
-        <a  data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Digital Marketing</a>
-            <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/digital-marketing">Digital Marketing</a></li>
-                {/* <li><a className="dropdown-item" href="#">Services 2</a></li>
-                <li><a className="dropdown-item" href="#">Services 3</a></li> */}
-            </ul>
+
+        <li>
+        <a href="/resources" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Resources</a>
         </li>
+
         <li>
         <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Outsourcing</a>
         </li>
-        <li className="">
-        <a href="/graphic" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Graphic</a>
-        </li>
+        
         <li>
         <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Knowledge Center</a>
         </li>  
