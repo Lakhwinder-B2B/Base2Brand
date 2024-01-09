@@ -4,7 +4,7 @@ import  React  from "react";
 // import { useEffect } from "react";
 import Header from "../../../component/header";
 import Footer from "../../../component/footer"; 
-import Resource from "../../../src/app/resource-columns";
+import Resource from "../resource-columns";
 import Feedback from "../feedback"; 
 import Faq from "../services/faq";   
 import Quote from "../request-quote";   
