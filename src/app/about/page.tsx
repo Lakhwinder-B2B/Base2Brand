@@ -19,7 +19,7 @@ export default function marketing() {
 
   useEffect(() => {
     AOS.init({
-         duration: 800,
+         duration: 800, 
          once: false,
        })
  }, [])
