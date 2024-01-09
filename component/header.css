@@ -67,6 +67,7 @@ div#collapsibleNavbar {
 }
 ul.dropdown-menu.show li {
     padding: 0;
+    line-height: 3;
 }
 ul.dropdown-menu.show li.hover-menus a::before {
     left: 0;

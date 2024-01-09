@@ -39,7 +39,7 @@ const currentRoute = usePathname();
               <ul className="dropdown-menu hover-menu-items">
                 <li><a className="dropdown-item" href="/seo">Search Engine Optimization</a></li>
                 <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
-                <li><a className="dropdown-item" href="#">Online Reputation Management</a></li>
+                <li><a className="dropdown-item" href="/online-reputation">Online Reputation Management</a></li>
                 <li><a className="dropdown-item" href="/social-media">Social Media Management</a></li>
               </ul>
             </li>
@@ -47,21 +47,21 @@ const currentRoute = usePathname();
               <ul className="dropdown-menu hover-menu-items">
                 <li><a className="dropdown-item" href="#">Magneto Development</a></li>
                 <li><a className="dropdown-item" href="/services2">Shopify Development</a></li>
-                <li><a className="dropdown-item" href="#">Woo Commerce Development</a></li>
+                <li><a className="dropdown-item" href="/big-commerce">Woo Commerce Development</a></li>
                 <li><a className="dropdown-item" href="#">Open cart Development</a></li>
               </ul>
             </li> 
             <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/graphic">Graphic Design <i className="fa fa-chevron-right"></i></a>
               <ul className="dropdown-menu hover-menu-items">
-                <li><a className="dropdown-item" href="#">Website Redesign</a></li>
+                <li><a className="dropdown-item" href="/graphic">Website Redesign</a></li>
                 <li><a className="dropdown-item" href="#">Responsive Web Design</a></li>
                 <li><a className="dropdown-item" href="#">Video Animation</a></li>
-                <li><a className="dropdown-item" href="#">Mobile app designing</a></li>
+                <li><a className="dropdown-item" href="/mobile-application">Mobile app designing</a></li>
               </ul>
             </li> 
             <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/services2">App Development <i className="fa fa-chevron-right"></i></a>
               <ul className="dropdown-menu hover-menu-items">
-                <li><a className="dropdown-item" href="#">Android App Development</a></li>
+                <li><a className="dropdown-item" href="/mobile-application">Android App Development</a></li>
                 <li><a className="dropdown-item" href="#">IOS App Development</a></li>
                 <li><a className="dropdown-item" href="#">React Native Development</a></li>
                 <li><a className="dropdown-item" href="#">Hybrid App Development</a></li>

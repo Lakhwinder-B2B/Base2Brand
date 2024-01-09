@@ -53,13 +53,13 @@ export default function ProjectSlick() {
     </div>
 <Slider {...settings} className="slider">
         <div>
-        <img src={project1.src} className='slider__item w-100' /> 
-        </div>
-        <div>
         <img src={project2.src} className='slider__item w-100' /> 
         </div>
         <div>
         <img src={project3.src} className='slider__item w-100' /> 
+        </div>
+        <div>
+        <img src={project2.src} className='slider__item w-100' /> 
         </div>
         <div>
         <img src={project1.src} className='slider__item w-100' /> 
