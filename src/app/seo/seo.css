@@ -116,12 +116,15 @@ button.item-names.social_margin {
     border-radius: 35px;
 }
 .borderStack img {
-    height: 85px;
+    height: 90px;
+    width: 200px;
     object-fit: contain;
     margin: auto;
 }
 .col.borderStack {
     flex: 20%;
+    width: 20%;
     border: 1px solid #fff;
     padding: 30px;
+    text-align: center;
 }

@@ -19,7 +19,7 @@ export default function home() {
                   </div>
 
                 <div className="ser-digital col-12 col-sm-12 col-md-6 col-lg-4 justify-content-end d-flex flex-wrap">
-                    <img src={PPCbg.src} alt=""/>
+                    <img className="w-100" src={PPCbg.src} alt=""/>
                 </div>
             </div>
         </div>
