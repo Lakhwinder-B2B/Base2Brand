@@ -34,18 +34,22 @@ export default function resources() {
                <button className="btn btn-outline-primary m-0"> Request a Quote </button>
                 </div>
                 <div className="col-md-6">
-                <div className="d-flex align-items-start">
-                <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button className="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Content Writer</button>
-                    <button className="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Shopify Developer</button>
-                    <button className="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">UX/UI Designer</button> 
+                <div className="d-flex flex-row-reverse position-relative align-items-end">
+                <div className="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button className="nav-link active mt-4 w-100 d-flex flex-wrap justify-content-between" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Content Writer <i className="fa fa-chevron-up"></i></button>
+                    <button className="nav-link w-100 mt-4 d-flex flex-wrap justify-content-between" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Shopify Developer <i className="fa fa-chevron-up"></i></button>
+                    <button className="nav-link w-100 mt-4 d-flex flex-wrap justify-content-between" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">UX/UI Designer <i className="fa fa-chevron-up"></i></button> 
                 </div>
                 <div className="tab-content" id="v-pills-tabContent">
                     <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                         <img src={Writer.src} className="writer" alt="" />
                     </div>
-                    <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-                    <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div> 
+                    <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                        <img src={Writer.src} className="writer" alt="" />
+                    </div>
+                    <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                      <img src={Writer.src} className="writer" alt="" />
+                    </div> 
                 </div>
                 </div>
                 </div>
