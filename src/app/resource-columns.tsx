@@ -12,17 +12,17 @@ export default function home() {
             <div className="row resource text-white mb-5 justify-content-center pt-5 px-5"> 
                 <div className="resource-col col-12 col-sm-6 col-md-6 pb-5">
                     <div className="d-flex flex-wrap justify-content-start align-items-center">
-                        <h1 className="text-left">Why Do We Stand Out From The Rest?</h1>
+                        <h1 className="text-left col-12 col-sm-8 col-md-6 col-lg-6 mb-5">Why Do We Stand Out From The Rest?</h1>
                         <ul className="order-list d-flex flex-wrap p-0 position-relative">
-                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-5"><img src={Order1.src} alt=""/>
+                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-4"><img src={Order1.src} alt=""/>
                             <span>Our web development service costs are competitive for any project.</span></li>
-                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-5"><img src={Order2.src} alt=""/>
+                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-4"><img src={Order2.src} alt=""/>
                             <span>Our developers simplify things for you to understand.</span></li>
-                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-5"><img src={Order2.src} alt=""/>
+                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-4"><img src={Order2.src} alt=""/>
                             <span>Reliable and highly productive delivery of projects.</span></li>
-                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-5"><img src={Order2.src} alt=""/>
+                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-4"><img src={Order2.src} alt=""/>
                             <span>24/7 customer service via phone, email, etc.</span></li>
-                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-5"><img src={Order2.src} alt=""/>
+                            <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-4"><img src={Order2.src} alt=""/>
                             <span>Fully compatible with modern web technologies</span></li>
                         </ul>
                     </div>

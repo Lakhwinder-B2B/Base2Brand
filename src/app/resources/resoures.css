@@ -24,3 +24,33 @@ ul.order-list::before {
 ul.order-list li img {
     z-index: 11;
 }
+div#v-pills-tab button {
+    background: #353535;
+    border-radius: 0;
+    /* transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg); */
+}
+div#v-pills-tab button.active {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width: 56% !important;
+    text-align:left;
+    margin-bottom:0 !important;
+    /* transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg); */
+}
+div#v-pills-tab button.active i{
+    display:none;
+}
+#v-pills-tab button > i {
+    font-size: 12px;
+    line-height: 22px;
+    padding-top: 3px;
+    position: relative;
+    right: 0px;
+}
