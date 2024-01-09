@@ -1,7 +1,6 @@
 'use client'
 
-import React from "react";
-import { useEffect } from "react";
+import React from "react"; 
 import Header from '../../component/header'
 import Footer from '../../component/footer'
 import OurServices from '../app/our-services'
@@ -29,17 +28,10 @@ import logo9 from '../../public/img/logo9.png';
 
 import polygon from '../../public/img/polygon.png'; 
 import Slider from "react-slick";
-import Typewriter from 'typewriter-effect';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+import Typewriter from 'typewriter-effect'; 
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({
-         duration: 800,
-         once: false,
-       })
- }, [])
+ 
   const settings = {
     dots: false,
     arrows : false,
