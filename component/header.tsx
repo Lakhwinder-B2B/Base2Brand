@@ -35,8 +35,6 @@ const currentRoute = usePathname();
         <li className="dropdown">
         <a  data-bs-toggle="dropdown"  className="dropdown-toggle block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white text-decoration-none">Services</a>
         <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="/services">Services</a></li>
-            <li><a className="dropdown-item"href="/services2">Our Services</a></li> 
             <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/digital-marketing">Digital Marketing <i className="fa fa-chevron-right"></i></a>
               <ul className="dropdown-menu hover-menu-items">
                 <li><a className="dropdown-item" href="/seo">Search Engine Optimization</a></li>
