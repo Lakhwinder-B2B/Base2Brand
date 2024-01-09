@@ -78,7 +78,7 @@ export default function Home() {
                   <img src={b2b1.src} className='banner_icon_section' />
                   <img src={b2b2.src} /> 
             </div>
-            <div className="col-md-8 text-center heading_lable pt-5 mt-5" data-aos="fade-up" > 
+            <div className="col-md-8 text-center heading_lable pt-5 mt-5"   > 
               <h2>Design, Transform, Accelerate</h2> 
               <Typewriter 
                 options={{
