@@ -4,3 +4,17 @@
 .web-head{
     color:#F47B52;
 }
+.about-img ul > li {
+    border: 1px solid #F47B52;
+    width:30%;
+    transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -ms-transition:all 0.3s linear;
+}
+.about-bg-mask {
+    background-color: #111;
+}
+.about-img ul > li:hover {
+    background-color: #f47852;
+}
