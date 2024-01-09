@@ -18,7 +18,7 @@ export default function marketing() {
         <div className="container">
         <div className="row">
             <div className="col-md-12 text-center text-white">
-                <h2 className="text_primary">Let's Meet Together</h2>
+                <h2 className="text_primary">Let Meet Together</h2>
                 <p>We will be obliged to have a word with you, if there is anything that you want to ask or <br /> know about, feel free to contact us. Our details are given below:</p>
             </div>
             <div className="bgWhite mt-5">

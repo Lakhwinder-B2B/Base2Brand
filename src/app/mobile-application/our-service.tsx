@@ -15,7 +15,7 @@ export default function marketing() {
          <div className="row text-white align-items-center">
             <div className="col-md-12 text-center text-white mb-5 pt-5">
                 <h2>Our Services</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tex</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy tex</p>
             </div>
             <div className="col-md-6 mt-5">
                 <img src={mobile1.src} className="w-75" alt="" />
@@ -40,7 +40,7 @@ export default function marketing() {
             </div>
             <div className="col-md-6 mt-5">
                 <h2 className="text_primary">HYBRID/HTML5 APP DEVELOPMENT</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, b</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, b</p>
             </div>
             <div className="col-md-12 mt-5 mb-5">
             <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
