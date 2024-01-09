@@ -15,13 +15,13 @@ export default function home() {
       <div className="container pb-5">
         <div className="row">
           <div className="col-md-12 text-center mb-5">
-            <h2 className="heading">Our Services</h2>
+            <h2 className="heading font-light">Our Services</h2>
           </div>
           <div className="col-md-4 mb-4">
             <div className="service_box">
               <img src={s1.src} alt="Digital Marketing" />
               <div className="desc_box p-3">
-                <h5 className="mt-4 mb-3">Digital Marketing</h5>
+                <h5 className="mt-4 mb-3 font-light">Digital Marketing</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text...</p>
                 <a >Read More <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></a>
               </div> 
@@ -32,7 +32,7 @@ export default function home() {
             <div className="service_box">
               <img src={s2.src} alt="Digital Marketing" />
               <div className="desc_box p-3">
-                <h5 className="mt-4 mb-3">E-commerce</h5>
+                <h5 className="mt-4 mb-3 font-light">E-commerce</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text...</p>
                 <a >Read More <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></a>
               </div> 
@@ -43,7 +43,7 @@ export default function home() {
             <div className="service_box">
               <img src={s3.src} alt="Digital Marketing" />
               <div className="desc_box p-3">
-                <h5 className="mt-4 mb-3">Graphic Design</h5>
+                <h5 className="mt-4 mb-3 font-light">Graphic Design</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text...</p>
                 <a >Read More <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></a>
               </div> 
@@ -55,7 +55,7 @@ export default function home() {
             <div className="service_box">
               <img src={s4.src} alt="Digital Marketing" />
               <div className="desc_box p-3">
-                <h5 className="mt-4 mb-3">Web Development</h5>
+                <h5 className="mt-4 mb-3 font-light">Web Development</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text...</p>
                 <a >Read More <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></a>
               </div> 
@@ -67,7 +67,7 @@ export default function home() {
             <div className="service_box">
               <img src={s5.src} alt="Digital Marketing" />
               <div className="desc_box p-3">
-                <h5 className="mt-4 mb-3">Resources</h5>
+                <h5 className="mt-4 mb-3 font-light">Resources</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text...</p>
                 <a >Read More <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></a>
               </div> 
@@ -79,7 +79,7 @@ export default function home() {
             <div className="service_box">
               <img src={s6.src} alt="Digital Marketing" />
               <div className="desc_box p-3">
-                <h5 className="mt-4 mb-3">App Development</h5>
+                <h5 className="mt-4 mb-3 font-light">App Development</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text...</p>
                 <a >Read More <i className="fa fa-arrow-right ml-3" aria-hidden="true"></i></a>
               </div> 

@@ -18,3 +18,6 @@
 .about-img ul > li:hover {
     background-color: #f47852;
 }
+img{
+    max-width:100%;
+}
