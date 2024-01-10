@@ -1,8 +1,8 @@
 'use client'
 
 import React from "react"; 
-import Count from '../../public/services2-img/count-bg.png'
-import GroupMask from "../../public/services2-img/group-mask.png"
+import Count from '../../../public/services2-img/count-bg.png';
+import GroupMask from "../../../public/services2-img/group-mask.png";
 
 
 export default function OurProcess() {

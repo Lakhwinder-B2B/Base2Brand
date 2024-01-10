@@ -7,8 +7,8 @@ import AboutMask from "../../../public/about-img/about-mask.png";
 import About from "../../../public/about-img/about.png"
 import About1 from "../../../public/about-img/about1.png"
 import About2 from "../../../public/about-img/about2.png"
-import AboutColumns from "../../../src/app/about-columns"
-import Team from "../.././app/team"
+import AboutColumns from "./about-columns"
+import Team from "./team"
 import Quote from "../request-quote";
 import Footer from "../../../component/footer";
 import "../about/about.css"; 

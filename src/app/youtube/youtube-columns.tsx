@@ -1,12 +1,12 @@
 'use client'
 
 import React from "react"; 
-import Utube1 from "../../public/youtube-img/youtube1.png"
-import Utube2 from "../../public/youtube-img/youtube2.png"
-import Utube3 from "../../public/youtube-img/youtube3.png"
-import Utube4 from "../../public/youtube-img/youtube4.png"
-import Utube5 from "../../public/youtube-img/youtube5.png"
-import Utube6 from "../../public/youtube-img/youtube6.png"
+import Utube1 from "../../../public/youtube-img/youtube1.png"
+import Utube2 from "../../../public/youtube-img/youtube2.png"
+import Utube3 from "../../../public/youtube-img/youtube3.png"
+import Utube4 from "../../../public/youtube-img/youtube4.png"
+import Utube5 from "../../../public/youtube-img/youtube5.png" 
+import Utube6 from "../../../public/youtube-img/youtube6.png"
 export default function home() {
    
   return (

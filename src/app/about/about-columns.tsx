@@ -1,10 +1,10 @@
 'use client'
 
 import React from "react"; 
-import About3 from "../../public/about-img/about3.png"
-import About4 from "../../public/about-img/about4.png"
-import About5 from "../../public/about-img/about5.png"
-import About6 from "../../public/about-img/about6.png"
+import About3 from "../../../public/about-img/about3.png"
+import About4 from "../../../public/about-img/about4.png"
+import About5 from "../../../public/about-img/about5.png"
+import About6 from "../../../public/about-img/about6.png"
 export default function home() {
    
   return (

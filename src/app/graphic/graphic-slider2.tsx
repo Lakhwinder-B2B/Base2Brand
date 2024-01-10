@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 
 import React from "react";   
 
-import sliderImages1 from '../../public/slider-img/slider1.png';
-import sliderImages2 from '../../public/slider-img/slider2.png';
+import sliderImages3 from '../../../public/slider-img/slider3.png';
+import sliderImages4 from '../../../public/slider-img/slider4.png';
 import Slider from "react-slick";
 export default function graphicservices() {
  
@@ -53,22 +53,22 @@ const Sliders = {
         </div>
         <Slider {...Sliders} className="w-100 pt-0 pb-5 pe-0">
             <div className="slider-img">
-                <img src={sliderImages1.src} className='slider-img' /> 
+                <img src={sliderImages3.src} className='slider-img' /> 
             </div>
             <div className="slider-img">
-                <img src={sliderImages2.src} className='slider-img' /> 
+                <img src={sliderImages4.src} className='slider-img' /> 
             </div> 
             <div className="slider-img">
-                <img src={sliderImages1.src} className='slider-img' /> 
+                <img src={sliderImages3.src} className='slider-img' /> 
             </div>
             <div className="slider-img">
-                <img src={sliderImages2.src} className='slider-img' /> 
+                <img src={sliderImages4.src} className='slider-img' /> 
             </div> 
             <div className="slider-img">
-                <img src={sliderImages1.src} className='slider-img' /> 
+                <img src={sliderImages3.src} className='slider-img' /> 
             </div>
             <div className="slider-img">
-                <img src={sliderImages2.src} className='slider-img' /> 
+                <img src={sliderImages4.src} className='slider-img' /> 
             </div> 
         </Slider>
     </div>

@@ -1,0 +1,80 @@
+.bggraydiant{
+    display: flex;
+    align-items: center;
+}
+.typeSize .Typewriter .Typewriter__wrapper {
+    font-size: 80px;
+}
+img.ico {
+    height: 26px;
+    padding-left: 10px;
+}
+.bgLight{
+    background: #111616;
+}
+p.lineHeight {
+    line-height: 30px;
+}
+.needBox {
+    background: #000;
+    border-radius: 15px;
+}
+.bgBlack {
+    background: #191919;
+    width: fit-content;
+    padding: 6px 18px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.col.industrie {
+    flex: 20%;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+img.IndustrieIcon {
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+/* php css */
+.serviceSection {
+    background: #0F0F0F;
+    padding: 5rem;
+}
+.bgGraydiantRight {
+    width: fit-content;
+    padding: 10px 20px;
+    background-image: linear-gradient(#4D65E5, #FF7B00);
+    border-radius: 10px;
+    border-radius: 0px 10px 0px 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.needBox{
+    position: relative;
+}
+button.nav-link.php.active{
+    color: #F47B52 !important;
+    border-bottom:0px !important;
+}
+.teamBox {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+}
+img.Experience {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+img.gifOverlap {
+    position: absolute;
+    left: 100px;
+    top: -54px;
+}
+img.gifOverlapPhp {
+position: absolute;
+left: 130px;
+top: 80px;
+}

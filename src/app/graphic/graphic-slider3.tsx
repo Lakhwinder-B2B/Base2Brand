@@ -3,8 +3,8 @@ import { useEffect } from 'react';
 
 import React from "react";   
 
-import sliderImages5 from '../../public/slider-img/slider5.png';
-import sliderImages6 from '../../public/slider-img/slider6.png';
+import sliderImages5 from '../../../public/slider-img/slider5.png';
+import sliderImages6 from '../../../public/slider-img/slider6.png';
 import Slider from "react-slick";
 export default function graphicservices() {
  

@@ -1,7 +1,7 @@
 'use client'
 
 import React from "react"; 
-import Utube from "../../public/youtube-img/youtube.png"
+import Utube from "../../../public/youtube-img/youtube.png"
 export default function home() {
    
   return (

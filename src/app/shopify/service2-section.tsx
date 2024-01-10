@@ -1,13 +1,13 @@
 'use client'
 
 import React from "react"; 
-import ServicesDigital from '../../public/services2-img/service-digital.png';
-import Quote from "../../public/services2-img/quote-ico.png";
-import Digital1 from "../../public/services2-img/digital1.png";
-import Digital2 from "../../public/services2-img/digital2.png";
-import Digital3 from "../../public/services2-img/digital3.png";
-import Digital4 from "../../public/services2-img/digital4.png";
-import Digital5 from "../../public/services2-img/digital5.png";
+import ServicesDigital from '../../../public/services2-img/service-digital.png';
+import Quote from "../../../public/services2-img/quote-ico.png";
+import Digital1 from "../../../public/services2-img/digital1.png";
+import Digital2 from "../../../public/services2-img/digital2.png";
+import Digital3 from "../../../public/services2-img/digital3.png";
+import Digital4 from "../../../public/services2-img/digital4.png";
+import Digital5 from "../../../public/services2-img/digital5.png";
 export default function home() {
    
   return (

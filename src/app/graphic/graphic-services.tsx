@@ -3,11 +3,11 @@ import { useEffect } from 'react';
 
 import React from "react";   
 
-import Graphicservicewebsite from '../../public/graphic-service-img/website.png';
-import Graphicservicemobile from '../../public/graphic-service-img/mobile.png';
-import Graphicservicemedia from '../../public/graphic-service-img/media.png';
-import Graphicservicebranding from '../../public/graphic-service-img/branding.png';
-import Graphicserviceline from '../../public/graphic-service-img/g-service-line.png';
+import Graphicservicewebsite from '../../../public/graphic-service-img/website.png';
+import Graphicservicemobile from '../../../public/graphic-service-img/mobile.png';
+import Graphicservicemedia from '../../../public/graphic-service-img/media.png';
+import Graphicservicebranding from '../../../public/graphic-service-img/branding.png';
+import Graphicserviceline from '../../../public/graphic-service-img/g-service-line.png';
 export default function graphicservices() {
  
   

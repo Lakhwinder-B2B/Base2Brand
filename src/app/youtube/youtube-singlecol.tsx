@@ -1,16 +1,16 @@
 'use client'
 
 import React from "react"; 
-import Order1 from "../../public/youtube-img/order1.png"
-import Order2 from "../../public/youtube-img/order2.png"
-import YouTube7 from "../../public/youtube-img/youtube7.png"
-import ChooseOrder from "../../public/youtube-img/choose-service.png"
-import Utube8 from "../../public/youtube-img/youtube8.png"
-import Utube9 from "../../public/youtube-img/youtube9.png"
-import Utube10 from "../../public/youtube-img/youtube10.png"
-import Utube11 from "../../public/youtube-img/youtube11.png"
-import Utube12 from "../../public/youtube-img/youtube12.png"
-import Utube13 from "../../public/youtube-img/youtube13.png"
+import Order1 from "../../../public/youtube-img/order1.png"
+import Order2 from "../../../public/youtube-img/order2.png"
+import YouTube7 from "../../../public/youtube-img/youtube7.png"
+import ChooseOrder from "../../../public/youtube-img/choose-service.png"
+import Utube8 from "../../../public/youtube-img/youtube8.png"
+import Utube9 from "../../../public/youtube-img/youtube9.png"
+import Utube10 from "../../../public/youtube-img/youtube10.png"
+import Utube11 from "../../../public/youtube-img/youtube11.png"
+import Utube12 from "../../../public/youtube-img/youtube12.png"
+import Utube13 from "../../../public/youtube-img/youtube13.png"
 export default function home() {
    
   return (
