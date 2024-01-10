@@ -11,7 +11,7 @@ export default function Header() {
     <footer className='footer'>
         <div className="main_footer p-5">
       <div className="row">
-        <div className="col-md-3">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 mb-4">
         <img src={logo.src} className="FooterLogo" alt="logo"/>
         <div className='social d-flex gap-4 mt-4'>
             <a href="https://www.facebook.com/TechBase2Brand/"><img src={Facebook.src} className="SocialIcon" alt="Facebook"/> </a>
@@ -20,21 +20,21 @@ export default function Header() {
             <a href="https://in.linkedin.com/company/techbase2brand"><img src={Linkedin.src} className="SocialIcon" alt="Linkedin"/> </a>
         </div>
         </div>
-        <div className="col-md-3 footerMenu">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 footerMenu">
             <h5>Working Hours:</h5>
             <ul>
                 <li>Mon-Fri: 9 am- 6 pm</li>
                 <li>Sat-Sun: Holiday</li>
             </ul>
         </div>
-        <div className="col-md-3 footerMenu">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 footerMenu">
             <h5>Address:</h5>
             <ul>
                 <li>F-209, Industrial area</li>
                 <li>Phase 8-B, Sector 74, Mohali, 160074</li>
             </ul>
         </div>
-        <div className="col-md-3 footerMenu">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 footerMenu">
             <h5>Hits Up:</h5>
             <ul>
                 <li>+919041700209 | +918360116967</li>

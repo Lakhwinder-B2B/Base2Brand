@@ -10,8 +10,8 @@ const currentRoute = usePathname();
   return (
     <header>
       
-    <nav className="navbar navbar-expand-sm bg-dark navbar-dark pt-4 pb-4">
-  <div className="container-fluid">
+    <nav className="navbar navbar-expand-xl bg-dark navbar-dark pt-4 pb-4 ps-3 pe-3 position-relative">
+  <div className="container-fluid"> 
   <a href="/" className="flex items-center navbar-brand pt-0">
     <img src={logo.src} className="mr-3 h-6 sm:h-9" alt="logo"/>
 </a>
@@ -46,7 +46,7 @@ const currentRoute = usePathname();
             <li className='hover-menus'><a className="dropdown-item d-flex justify-content-between align-items-center" href="/services2">Ecommercee <i className="fa fa-chevron-right"></i></a>
               <ul className="dropdown-menu hover-menu-items">
                 <li><a className="dropdown-item" href="#">Magneto Development</a></li>
-                <li><a className="dropdown-item" href="/services2">Shopify Development</a></li>
+                <li><a className="dropdown-item" href="/shopify">Shopify Development</a></li>
                 <li><a className="dropdown-item" href="/big-commerce">Woo Commerce Development</a></li>
                 <li><a className="dropdown-item" href="#">Open cart Development</a></li>
               </ul>
@@ -84,7 +84,7 @@ const currentRoute = usePathname();
       </ul>
     </div>
 
-    <div className="d-flex flex-wrap align-items-center">
+    <div className="d-flex flex-wrap align-items-center contact-num">
         <a href="#" className="bg-transparent hover:bg-dark text-white font-semibold hover:text-white py-2 px-4 border border-blue hover:border-transparent rounded-full">Call:- +91 836 011 6967</a> 
     </div>
             

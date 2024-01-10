@@ -30,3 +30,16 @@ li.active {
     color: #fff !important;
     text-decoration: auto;
 }
+
+@media screen and (max-width:767px) {
+    footer.footer .footerMenu {
+        flex: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    footer.footer .footerMenu {
+        flex: 100%;
+    }
+}
