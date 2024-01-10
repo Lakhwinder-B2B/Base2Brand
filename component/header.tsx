@@ -1,10 +1,17 @@
 "use client";
+import {useEffect} from 'react';
 import Link from 'next/link'
 import logo from '../public/img/logo.png';
 import './footer.css'
 import { usePathname } from 'next/navigation';
-import './header.css'
+import './header.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 export default function Header() {
+  useEffect(() => {
+    AOS.init();  
+   }, []);
+
 const currentRoute = usePathname();
 
   return (
