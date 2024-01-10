@@ -3,9 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import Home from './home-backup';
-import Script from "next/script";
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+import Script from "next/script"; 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -39,7 +37,7 @@ export default function RootLayout({
   type="text/css"
   href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
 />
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+ 
       {/* <Home /> */}
       {children}
        
@@ -47,10 +45,7 @@ export default function RootLayout({
       
        <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossOrigin="anonymous"></Script>
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossOrigin="anonymous"></Script>
-      <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
-     {/* <Script  >
-     AOS.init(); 
-     </Script> */}
+   
       </body>
     </html>
   )
