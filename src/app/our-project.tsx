@@ -14,12 +14,12 @@ export default function home() {
     <>  
       <div className="container-fluid p-5 pb-5">
         <div className="row">
-          <div className="col-md-12 text-center mb-5"   >
+          <div className="col-md-12 text-center mb-5" data-aos="zoom-in">
             <h2 className="heading">Our Cherished Projects</h2>
           </div>
           
           <div className="row"> 
-          <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist"   >
+          <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist"  data-aos="zoom-out" >
   <li className="nav-item" role="presentation">
     <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">All</button>
   </li>

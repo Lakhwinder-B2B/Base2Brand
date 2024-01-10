@@ -25,7 +25,7 @@ export default function marketing() {
         <div className="gifbanner">
         <div className="container mx-auto pt-4 pb-5">
           <div className="row align-items-center"> 
-            <div className="col-md-6 heading_lable" data-aos="fades-up">
+            <div className="col-md-6 heading_lable" data-aos="fade-up">
               <Typewriter
                 options={{
                   strings: ["Digital Marketing"],
@@ -39,7 +39,7 @@ export default function marketing() {
               </h5>
               <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="slide-down">
             <img className='marketing w-100' src={marketing_img.src} alt="" />  
             </div>
           </div>

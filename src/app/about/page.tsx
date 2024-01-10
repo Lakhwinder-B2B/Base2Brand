@@ -28,9 +28,9 @@ export default function marketing() {
     <>
       <Header />
         <div className="bg_home pt-0 pb-5">
-          <div className="about-mask pt-5" style={{backgroundImage: `url(${AboutMask.src})`,width: '100%',height: '100%',}}>
+          <div className="about-mask pt-5" data-aos="fade-up" style={{backgroundImage: `url(${AboutMask.src})`,width: '100%',height: '100%',}}>
           <div className="row mb-5 m-0"> 
-              <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4">
+              <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4" data-aos="slide-down">
                 <h1 className="fs-3 font-light w-100 text-center web-head mb-4">SMART IDEAS FOR YOUR BRAND ARE HERE.</h1>
                 <p className="w-100 text-center text-white mb-4">We blend incredible Design and Development Skills with phenomenol Digital Marketing techniques to furnish your brand with the online solutions you deserve</p>
                 <button className="btn btn-outline-primary m-0 mb-4"> Request a Quote </button>
@@ -42,10 +42,10 @@ export default function marketing() {
             </div>
             <div className="container">
               <div className="row mt-5 mb-5 d-flex flex-wrap justify-content-start align-items-center"> 
-                <div className="about-img col-12 col-sm-12 col-md-6 m-auto justify-content-start d-flex">
+                <div className="about-img col-12 col-sm-12 col-md-6 m-auto justify-content-start d-flex" data-aos="fade-right">
                   <img src={About1.src} alt="" />
                 </div>
-                <div className="d-flex flex-wrap justify-content-start align-items-center col-12 col-sm-12 col-md-6 mb-4">
+                <div className="d-flex flex-wrap justify-content-start align-items-center col-12 col-sm-12 col-md-6 mb-4" data-aos="fade-left">
                   <h1 className="fs-3 font-light w-100 text-white text-left">Who are we?</h1>
                   <p className="w-100 text-white font-light text-left mb-5">Base2Brand is one of the rapidly expanding website development and digital marketing companies in the country with offices in India and Canada. Our teams of professionals have constantly delivered distinguished and exceptional results by combining together creative ideas with extensive experience.
                     <br/><br/>
@@ -56,22 +56,22 @@ export default function marketing() {
             </div>
 
             <div className="row mb-5 mt-5 m-0"> 
-                <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4 mt-5 pt-5">
+                <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4 mt-5 pt-5" data-aos="fade-down">
                   <h1 className="fs-3 font-light w-100 text-center text-white mb-4">Implementing the famous proverb</h1>
                   <p className="w-100 text-center text-white">“Do not be wise in words, be wise in deeds”, we believe that results speak for themselves!</p>
                 </div>
-                <div className="about-img col-12 col-sm-10 col-md-10 m-auto justify-content-center d-flex">
+                <div className="about-img col-12 col-sm-10 col-md-10 m-auto justify-content-center d-flex" data-aos="fade-up">
                   <img src={About2.src} alt="" />
                 </div>
             </div>
           
             <div className="row mb-5 mt-5 about-bg-mask m-0 pt-5 pb-5"> 
-                <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4">
+                <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4" data-aos="fade-left">
                   <h1 className="fs-3 font-light w-100 text-center text-white mb-4">Why Work with us</h1>
                 </div>
-                <div className="about-img col-12 col-sm-10 col-md-10 m-auto justify-content-center d-flex">
+                <div className="about-img col-12 col-sm-10 col-md-10 m-auto justify-content-center d-flex" data-aos="fade-right">
                  <div className="container">
-                    <ul className="d-flex flex-wrap justify-content-center gap-10">
+                    <ul className="d-flex flex-wrap justify-content-center gap-10 p-0">
                       <li className="p-3 text-white text-center">OUR TEAM OF EXPERTS</li>
                       <li className="p-3 text-white text-center">GET CLARITY AND FOCUS</li>
                       <li className="p-3 text-white text-center">ENGAGE WITH THE RIGHT AUDIENCE</li>

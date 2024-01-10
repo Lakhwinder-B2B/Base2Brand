@@ -21,7 +21,7 @@ export default function seo() {
     <>  
     <Header />
     <div className="bg-black">
-    <div className="text-center text_primary overlap_seo">
+    <div className="text-center text_primary overlap_seo" data-aos="fade-up">
             <h2>SEO Agency</h2>
             <p>That helps your business get more traffic online</p>
             <p className="text-white">Hoping to employ a Mohali SEO organization? Get page 1 outcomes with Base to Brand’s SEO services. <br /> Our SEO specialists will get you the outcomes you need to develop your business.</p>

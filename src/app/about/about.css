@@ -21,3 +21,14 @@
 img{
     max-width:100%;
 }
+
+@media screen and (max-width:991px) {
+    .about-img ul > li {
+        width: 45%;
+     }
+}
+@media screen and (max-width:480px) {
+    .about-img ul > li {
+        width: 100%;
+     }
+}

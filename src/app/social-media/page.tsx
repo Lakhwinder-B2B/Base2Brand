@@ -23,7 +23,7 @@ export default function seo() {
     <>  
     <Header />
     <div className="bg-black">
-    <div className="text-center text_primary overlap_social">
+    <div className="text-center text_primary overlap_social p-3">
     <Typewriter 
                 options={{
                   strings: ['Social media managment'],

@@ -101,7 +101,7 @@ export default function home() {
           </div>
         </div>
         </div>
-        <div className="p-3">
+        <div className="p-3"  data-aos="flip-left">
         <Slider {...settings} className="w-100">
         <div>
         <img src={logo1.src} className='social_logo' /> 

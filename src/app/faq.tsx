@@ -10,7 +10,7 @@ export default function FAQ() {
 
   return (
     <>  
-        <div className="p-5 pb-0 bg_patner"> 
+        <div className="pl-4 pr-4 pb-0 bg_patner"> 
     <div className="container-fluid pb-5 position-relative">
       <div className="row">
         <div className="col-md-12 text-center mt-5" data-aos="fades-down">

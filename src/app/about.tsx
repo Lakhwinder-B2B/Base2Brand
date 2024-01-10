@@ -11,10 +11,10 @@ export default function home() {
     <>  
       <div className="container p-5 pb-5"> 
           <div className="row"> 
-            <div className="col-md-6 text-center "   >
+            <div className="col-md-6 text-center " data-aos="flip-left"  >
             <Image width={75} height={100} className="w-75 m-auto" src={About.src} alt="Product" />
             </div> 
-            <div className="col-md-6 text-white"   >
+            <div className="col-md-6 text-white" data-aos="zoom-in"  >
               <h1>About Us</h1> 
               <h3 className="sub_story">Our Story</h3>
               <p>Since 2016, Base2Brand has evolved and adapted new terms of the web, while providing custom-tailored and contemporary designs, development, and DIGITAL MARKETING SOLUTIONS to our clients in several Internet Marketing Areas. </p>

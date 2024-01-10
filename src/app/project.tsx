@@ -20,13 +20,13 @@ export default function home() {
       <div className="container-fluid p-4 pb-5">
         <div className="row">
           <div className="col-md-12 text-center mb-5"  >
-            <h2 className="heading">Our Services</h2>
+            <h2 className="heading" data-aos="fade-up">Our Services</h2>
           </div>
           
           <div className="row">
             <div className="col-md-6"  >
           <div className="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <li className="nav-item" role="presentation">
+          <li className="nav-item" role="presentation" data-aos="zoom-in">
             <a className="nav-link active project" id="pills-digital-tab" data-bs-toggle="pill" data-bs-target="#pills-digital" type="button" role="tab" aria-controls="pills-digital" aria-selected="true">             
               <h2>Digital Marketing</h2>
                 <div className="d-flex justify-content-between">
@@ -39,7 +39,7 @@ export default function home() {
                 </div>
               </a>
           </li>
-          <li className="nav-item mt-4" role="presentation">
+          <li className="nav-item mt-4" role="presentation" data-aos="zoom-in">
             <a className="nav-link " id="pills-Commerce-tab" data-bs-toggle="pill" data-bs-target="#pills-Commerce" type="button" role="tab" aria-controls="pills-Commerce" aria-selected="false"> 
             <h2>ECOMMERCE</h2>
                 <div className="d-flex justify-content-between">
@@ -52,7 +52,7 @@ export default function home() {
                 </div>
             </a>
           </li>
-          <li className="nav-item mt-4" role="presentation">
+          <li className="nav-item mt-4" role="presentation" data-aos="zoom-in">
             <a className="nav-link " id="pills-Graphic-tab" data-bs-toggle="pill" data-bs-target="#pills-Graphic" type="button" role="tab" aria-controls="pills-Graphic" aria-selected="false"> 
             <h2>GRAPHIC DESIGN</h2>
                 <div className="d-flex justify-content-between">
@@ -65,7 +65,7 @@ export default function home() {
                 </div>
             </a>
           </li>
-          <li className="nav-item mt-4" role="presentation">
+          <li className="nav-item mt-4" role="presentation" data-aos="zoom-in">
             <a className="nav-link " id="pills-APP-tab" data-bs-toggle="pill" data-bs-target="#pills-APP" type="button" role="tab" aria-controls="pills-APP" aria-selected="false"> 
             <h2>APP DEVELOPMENT</h2>
                 <div className="d-flex justify-content-between">
@@ -81,7 +81,7 @@ export default function home() {
           </div> 
         </div>
         <div className="col-md-6"  >
-<div className="tab-content" id="pills-tabContent">
+<div className="tab-content" id="pills-tabContent" data-aos="zoom-out">
   <div className="tab-pane fades show active" id="pills-digital" role="tabpanel" aria-labelledby="pills-digital-tab">
   <img className="active_img w-100" src={digital.src} alt="Search Engine Optimization" />
   </div>

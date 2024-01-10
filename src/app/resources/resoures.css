@@ -70,3 +70,107 @@ div#v-pills-tab button.active i{
     position: relative;
     right: 0px;
 }
+
+
+
+/*-----Tabs------*/
+.item {
+  flex-grow: 1;
+  height: 450px;
+  background-color: rgb(61, 61, 61);
+  position: relative;
+  border: 1px solid #1a1a1a;
+  transition: all 300ms ease-in-out;
+}
+.item:hover {
+  flex-grow: 4.3;
+  background-image: url("../../../public/resources/writer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item h3 {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    transform: rotate(90deg);
+}
+.item:hover h3 {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    transform: rotate(360deg);
+}
+
+.item2 {
+  flex-grow: 1;
+  height: 500px;
+  background-color: rgb(85, 85, 85);
+  position: relative;
+  border: 1px solid #1a1a1a;
+  transition: all 300ms ease-in-out;
+}
+.item2:hover {
+  flex-grow: 4.3;
+  /* background-color: #f10000; */
+  background-image: url("../../../public/resources/writer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item2 h3 {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    transform: rotate(90deg);
+}
+.item2:hover h3 {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    transform: rotate(360deg);
+}
+
+.item3 {
+  flex-grow: 1;
+  height: 500px;
+  background-color: #353535;
+  position: relative;
+  border: 1px solid #1a1a1a;
+  transition: all 300ms ease-in-out;
+}
+.item3:hover {
+  flex-grow: 4.3;
+  background-image: url("../../../public/resources/writer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item3 h3 {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    transform: rotate(90deg);
+}
+.item3:hover h3 {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 34px;
+    transform: rotate(360deg);
+}
+

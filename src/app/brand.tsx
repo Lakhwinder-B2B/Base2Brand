@@ -19,7 +19,7 @@ export default function home() {
       <div className="container-fluid p-5 pb-5 mt-5"> 
           <div className="row text-white  pb-5"> 
            <div className="col-md-12">
-            <div className="bg_blackBrand">
+            <div className="bg_blackBrand" data-aos="fade-down">
               <h3>We work with market leaders and ambitious brands*</h3>
               <div className="logo_brand">
               <img className="logo_brand" src={b1.src} alt="Logo" /> 

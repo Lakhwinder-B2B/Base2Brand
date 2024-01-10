@@ -75,19 +75,7 @@ ul.tagsSeo {
   .borderBox {
     border: 1px solid #fff;
 }
-  button.accordion-button {
-    padding: 14px 10px !important;
-    background: #353535 !important;
-    text-align: left;
-    width: 100%;
-    border: none !important;  
-    color: #fff !important;
-    font-size: 25px !important;
-    font-weight: 500;
-    border-radius: 0px !important;
-    margin-top: 15px;
-    box-shadow: none !important;
-}
+  
 .accordion-item { 
     border: none !important;
 }

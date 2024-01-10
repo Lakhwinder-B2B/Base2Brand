@@ -28,7 +28,7 @@ background:#071c4d;
 border: 2px solid #F47B52;
 box-shadow:0px 2px 30px #F47B52;
 transition: 0.4s;
-padding: 12px 43px;
+padding: 12px 30px;
 }
 button.btn.btn-outline-primary {
     border: 3px solid #fff;
@@ -37,7 +37,7 @@ button.btn.btn-outline-primary {
     align-items: center;
     margin: auto;
     border-radius: 50px;
-    padding: 10px 43px;
+    padding: 10px 30px;
 }
  .text_primary{
  color:#F47B52 !important;
@@ -98,13 +98,42 @@ h2.heading {
 font-weight:500;
 cursor:pointer;
 }
-@media screen and (max-width: 1024px) {
 
+ul.order-list::before {
+    position: absolute;
+    content: "";
+    border-style: dashed;
+    border-width: 1px;
+    height: 80%;
+    left: 30px;
+    top: 20px;
+    z-index: 1;
 }
+ul.order-list li img {
+    z-index: 11;
+}
+.rotate {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    align-items: center;
+}
+.flip-slide > div.item:hover .rotate {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    align-items: end;
+    padding: 10px 15px;
+}
+.flip-slide > div.item:hover .rotate i {
+    display:none;
+}
+
+
+
 @media screen and (max-width: 991px) {
-.logo_brand{
-  display:block !important;
-}
 .nav-link .d-flex.justify-content-between {
   display: block !important;
 }
@@ -114,8 +143,26 @@ cursor:pointer;
 .Typewriter span{
   font-size: 36px !important;
 }
+.col.borderStack {
+  flex: 33% !important;
+  width: 33% !important;
+}
 }
 @media screen and (max-width: 767px) {
+  .borderStack img {
+    height: 50px !important;
+    width: 100% !important;
+  } 
+  .accordion-item button.accordion-button {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  } 
   
+  .flip-slide > div:hover {
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    min-height: 500px;
+}   
 }
  

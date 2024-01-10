@@ -12,7 +12,7 @@ export default function Seoprocess() {
    
   return (
     <>  
-      <div className="container-fluid p-5 mt-5"> 
+      <div className="container-fluid p-3 mt-5"> 
        
         <div className="row"> 
         <div className="col-md-12 text-center text-white mt-5 mb-5 pt-5">
@@ -24,7 +24,7 @@ export default function Seoprocess() {
                         <div className="col-md-3">
                             <img src={Process.src} className="w-100" alt="" />
                         </div>
-                        <div className="col-md-9 pl-5">
+                        <div className="col-md-9 pe-4 ps-4">
                             <h2 className="text_primary mb-4">Choose your service</h2>
                             <p className="text-white">For lead generation, choose a social media strategy and schedule a call to one of our digital marketing specialists.</p>
                         </div>
@@ -36,7 +36,7 @@ export default function Seoprocess() {
                         <div className="col-md-3">
                             <img src={Process1.src} className="w-100" alt="" />
                         </div>
-                        <div className="col-md-9 pl-5">
+                        <div className="col-md-9 ps-4 pe-4">
                             <h2 className="text_primary mb-4">Service questionnaire</h2>
                             <p className="text-white">Once you have become a Base2Brand client, you will need to complete a service setup form. This allows us to ask you questions about your business.</p>
                         </div>
@@ -48,7 +48,7 @@ export default function Seoprocess() {
                         <div className="col-md-3">
                             <img src={Process2.src} className="w-100" alt="" />
                         </div>
-                        <div className="col-md-9 pl-5">
+                        <div className="col-md-9 ps-4 pe-4">
                             <h2 className="text_primary mb-4">Preparing for launch</h2>
                             <p className="text-white">We conduct research on your company, create marketing strategies, design your creative, and dial in to your target customers.</p>
                         </div>
@@ -70,7 +70,7 @@ export default function Seoprocess() {
                         <div className="col-md-3">
                             <img src={Process4.src} className="w-100" alt="" />
                         </div>
-                        <div className="col-md-9 pl-5">
+                        <div className="col-md-9 ps-4 pe-4">
                             <h2 className="text_primary mb-4">Ongoing Social Strategy Optimization</h2>
                             <p className="text-white">Social media marketing is not a onetime thing. After implementing a strategy we look whether it is performing well or changes that we need to implement to make it perfect.</p>
                         </div>
