@@ -30,7 +30,7 @@ export default function OurClient() {
         <img className="w-100" src={client2.src} alt="" /> 
         </div>
       </div>
-      <div className="col-md-2">
+      <div className="col-md-2 mob-none">
       <img className="lineCenter" src={line.src} alt="" /> 
 
       </div>

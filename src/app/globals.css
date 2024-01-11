@@ -163,6 +163,21 @@ ul.order-list li img {
     max-height: 500px;
     height: 100%;
     min-height: 500px;
-}   
+  }   
+  .process-col p {
+      max-width: 90% !important;
+  }
+  .mob-none {
+    display: none;
+  } 
+  .mob-top {
+    margin: 0 !important;
+    padding: 0 15px !important;
+  } 
+  .topSpaceLines {
+    margin-top: 4rem;
+  }
+  .bg_feedback{
+      margin-top:2rem;
+  }
 }
- 

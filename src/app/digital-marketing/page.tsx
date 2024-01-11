@@ -25,7 +25,7 @@ export default function marketing() {
         <div className="gifbanner">
         <div className="container mx-auto pt-4 pb-5">
           <div className="row align-items-center"> 
-            <div className="col-md-6 heading_lable" data-aos="fade-up">
+            <div className="col-md-6 heading_lable mb-4" data-aos="fade-up">
               <Typewriter
                 options={{
                   strings: ["Digital Marketing"],

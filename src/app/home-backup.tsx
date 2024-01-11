@@ -72,7 +72,7 @@ export default function home() {
       <div className="bg_home">
       <div className="container mx-auto pt-4 pb-5"> 
       <div className="row align-items-center">
-        <div className="col-md-2 ">  
+        <div className="col-md-2">  
               <img src={b2b1.src} className='banner_icon_section'/>
               <img src={b2b2.src} /> 
         </div>

@@ -30,7 +30,7 @@ export default function socialagency() {
     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div className="accordion-body">  
             <div className="row"> 
-                    <div className="seoBox">
+                    <div className="seoBox p-4">
                         <h2>Interactive Campaigns</h2>
                         <p>Interactive campaigns often include quizzes, chats, and contests. A photo contest might be initiated that asks people to submit creative pictures of your product. We might also host a video contest to highlight your product or service.</p>
                         <div className="row">
@@ -74,7 +74,7 @@ export default function socialagency() {
     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div className="accordion-body">
       <div className="row"> 
-                    <div className="seoBox">
+                    <div className="seoBox p-4">
                         <h2>PPC Channels We Work With</h2>
                         <p>If you are looking to improve your business SEO rankings, look no further. Base 2 Brand SEO services will help you rank on the first page for local search and ensure your potential customers can find you on Google maps.</p>
                         <div className="row">
@@ -116,7 +116,7 @@ export default function socialagency() {
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div className="accordion-body">
       <div className="row"> 
-                    <div className="seoBox">
+                    <div className="seoBox p-4">
                         <h2>PPC Channels We Work With</h2>
                         <p>If you are looking to improve your business SEO rankings, look no further. Base 2 Brand SEO services will help you rank on the first page for local search and ensure your potential customers can find you on Google maps.</p>
                         <div className="row">

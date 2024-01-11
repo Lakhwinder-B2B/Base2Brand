@@ -195,7 +195,7 @@ p.blob_sub {
     position: relative;
 }
 button.carousel-control-prev {
-    top: 10rem;
+    position:static;
     background: #FF7B00;
     width: 40px;
     height: 40px;
@@ -205,7 +205,7 @@ button.carousel-control-prev {
     border-radius: 50px;
 }
 button.carousel-control-next {
-    top: 10rem;
+    position:static;
     background:transparent;
     border:2px solid #fff;
     width: 40px;

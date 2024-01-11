@@ -14,7 +14,7 @@ export default function OurProcess() {
   return (
     <>  
       <div className="container-fluid p-5 pb-5 mt-3 mask" style={{backgroundImage: `url(${GroupMask.src})`,width: '100%',height: '100%',}}> 
-        <div className="row process text-white mb-5 pb-5 justify-content-center"> 
+        <div className="row process text-white pb-0 mb-0 justify-content-center"> 
           <div className="col-md-12 pb-4">
             <h1 className="text-center font-light">OUR PROCESS</h1>
           </div>

@@ -35,14 +35,14 @@ export default function seo() {
             <div className="mt-5 text-center">
                 <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
                 </div>
-        </div>
-    <div className="seo"   style={{
-      backgroundImage: `url(${Social.src})`,
-      width: '100%',
-      height: '920px',  
-      backgroundSize: 'auto',
-      position: 'relative',
-    }}>
+            </div>
+            <div className="seo"   style={{
+              backgroundImage: `url(${Social.src})`,
+              width: '100%',
+              height: '920px',  
+              backgroundSize: 'auto',
+              position: 'relative',
+            }}>
      
 
     </div>

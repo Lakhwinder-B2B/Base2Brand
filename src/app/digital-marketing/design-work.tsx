@@ -19,7 +19,7 @@ export default function designWork() {
     <div className="container"> 
 <div className="row text-white">
     
-    <div className="col-md-5" data-aos="slide-left">
+    <div className="col-md-5 mb-4" data-aos="slide-left">
         <h2>Design that Works!</h2>
         <p className='mb-5 pr-5'>We at Base2Brand understand all aspects of eCommerce web design. The design of your website is critical to the success of selling products online.</p>
         <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>

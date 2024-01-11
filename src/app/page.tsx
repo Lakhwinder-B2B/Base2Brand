@@ -82,11 +82,11 @@ export default function Home() {
       <div className="bg_home">
         <div className="container mx-auto pt-4 pb-5"> 
           <div className="row align-items-center">
-            <div className="col-md-2"  >  
+            <div className="col-md-2 mob-none"  >  
                   <img src={b2b1.src} className='banner_icon_section' />
                   <img src={b2b2.src} /> 
             </div>
-            <div className="col-md-8 text-center heading_lable pt-5 mt-5" data-aos="fade-up" > 
+            <div className="col-md-8 text-center heading_lable pt-5 mt-5 mob-top" data-aos="fade-up" > 
               <h2>Design, Transform, Accelerate</h2> 
               <Typewriter 
                 options={{
@@ -100,7 +100,7 @@ export default function Home() {
               <button className='btn btn-outline-primary'> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
             </div>
             </div>
-            <div className="col-md-2"  > 
+            <div className="col-md-2 mob-none"  > 
                 <img src={b2b3.src} className='icon_three' />
                 <img src={b2b4.src} className='icon_four ml-4' />
             </div>
