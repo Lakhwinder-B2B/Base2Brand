@@ -31,7 +31,7 @@ export default function DevCompany() {
         <h3 className='primary'>Availability of Tools</h3>
         <p>In the dynamic e-commerce landscape, adaptability is key. At Base2Brand, we embrace change, staying updated on Shopify&apos;s latest and adapting to evolving industry trends and technologies. This dedication ensures your store not only meets current standards but is well-prepared for future challenges. Partnering with us means having a shopify website development company proactive in adapting to the digital marketplace&apos;s ever-evolving needs.</p>
         </div>
-        </div>
+        </div>  
     </div>
     </div>
     </div>
