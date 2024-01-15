@@ -12,7 +12,7 @@ export default function home() {
   return (  
     <>  
       
-      <div className="container-fluid p-5 mt-5"> 
+      <div className="container-fluid p-5 mt-0 mt-md-5"> 
           <div className="row text-white"> 
               <div className="col-12 col-sm-12 col-md-4 mb-3" data-aos="flip-left">
               <img className="carrerImg" src={c1.src} alt="Product" />
@@ -25,7 +25,9 @@ export default function home() {
                   <h2>For Career</h2>
                   <h1 className="mt-4 mb-4">WHAT WE&apos;RE <span className="graydiant_text">LOOKING</span> FOR ?</h1>
                   <p className="mb-5 line-height">A career at Base2Brand is more than just a job — it’s an opportunity to shape the future. <br /> Our company was built on a set of four core values which make that possible: trust, <br /> customer success, innovation, and equality. Join us to discover a future of opportunities.</p>
-                  <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> We are Hiring </button>
+                  <button className="btn btn-outline-primary"> 
+                  {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+                  We are Hiring </button>
               </div>
               <div className="col-12 col-sm-12 col-md-4 mb-3" data-aos="flip-right">
               <img className="carrerImgs" src={c3.src} alt="Product" />

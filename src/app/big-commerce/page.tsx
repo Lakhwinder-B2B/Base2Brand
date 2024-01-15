@@ -32,9 +32,9 @@ export default function BigCommence() {
     
       <Header />
       <div className="bg-black">
-        <div className="container-fluid mx-auto p-5"> 
+        <div className="container-fluid mx-auto p-4"> 
           <div className="row align-items-center">
-            <div className="col-md-7 Type_Writer text-white"> 
+            <div className="col-md-7 Type_Writer text-white" data-aos="flip-left"> 
                 <h1 className="big">BigCommerce    <img src={Icon.src} className="icon" alt="" /> </h1>
             <Typewriter 
                 options={{
@@ -43,10 +43,10 @@ export default function BigCommence() {
                   loop: true,
                 }}
               />
-              <p className="mt-4 mb-5 desc_big">As a leading BigCommerce development company, we specialize in providing comprehensive BigCommerce development services.</p>
+              <p className="mt-4 mb-5 desc_big" data-aos="flip-right">As a leading BigCommerce development company, we specialize in providing comprehensive BigCommerce development services.</p>
               <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
                 </div>      
-                    <div className="col-md-5">
+                    <div className="col-md-5" data-aos="fade-down">
 
                         <img src={Main.src} className="w-100" alt="" />
                     </div>
@@ -55,10 +55,10 @@ export default function BigCommence() {
                 <div className="bg_gray_commerce">
                     <div className="p-5">
                         <div className="row align-items-center">
-                            <div className="col-md-6">
+                            <div className="col-md-6" data-aos="flip-left">
                                 <img src={Agency.src} className="agency" alt="" />
                             </div>
-                            <div className="col-md-6 text-white"> 
+                            <div className="col-md-6 text-white" data-aos="flip-right"> 
                                 <h1 className="Agency_Heading d-flex align-items-center">We are   <img src={AgencyIcon.src} className="agencyIcon" alt="" /> Agency</h1>
                                 <p className="mt-4 desc_big">As a leading BigCommerce development company, we specialize in providing comprehensive BigCommerce development services tailored to meet the unique needs of your business. Whether you are establishing a new online store or looking to enhance your existing Shopify website, our expert team is here to bring your vision to life.</p>
                             </div>
@@ -69,7 +69,7 @@ export default function BigCommence() {
                 <div className="bg_light_green pb-5"> 
                 <OurProject />
                 <AppCompany />
-                <div className="text-center text-white mt-5">
+                <div className="text-center text-white mt-5" data-aos="zoom-in">
                   <h1 className="mb-5">Bigcommerce Project Completion Process</h1>
                 <img className="app pb-5 m-auto" src={App.src} alt="" />
 

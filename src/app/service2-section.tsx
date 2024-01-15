@@ -12,14 +12,14 @@ export default function home() {
    
   return (
     <>  
-      <div className="container-fluid py-5 pb-5"> 
+      <div className="container-fluid py-0 py-md-5 pb-5"> 
         <div className="row process text-white mb-5 justify-content-center pt-5 px-5"> 
           <div className="col-md-12 pb-5">
             <h1 className="text-left">OUR SERVICES</h1>
           </div>
           
           <div className="justify-content-between d-flex flex-wrap">
-            <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5">
+            <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5" data-aos="fade-left">
               <div className="d-flex flex-wrap justify-content-start align-items-center">
                 <h2 className="digital-txt mb-4"><strong>01</strong><sub>Digital Marketing</sub></h2>
                 <p className="digital-para">The right Digital / Internet Marketing strategy is the difference between brands that rule consumer minds and those that don’t. Promoting your business in the right places at the right time of the day is crucial to get maximum ROI on your budgets.</p>
@@ -27,12 +27,12 @@ export default function home() {
               </div>
             </div>
 
-            <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap">
+            <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
                   <img src={ServicesDigital.src} alt=""/>
             </div>
           </div>
        
-        <div className="digital-row d-flex flex-wrap mb-5">
+        <div className="digital-row d-flex flex-wrap mb-5"  data-aos="zoom-in">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 p-5 text-white digital-column justify-content-center align-items-center d-flex flex-wrap">
               <img src={Digital1.src} alt=""/>
               <p className="m-0 p-0 fs-4 pt-3 display-4 w-100 text-center">PPC Management</p>
@@ -67,11 +67,11 @@ export default function home() {
 
         <div className="row process bg-gray text-white mb-5 justify-content-center pt-5 px-5 pb-5"> 
           <div className="justify-content-between d-flex flex-wrap">
-              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap">
+              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap"  data-aos="fade-left">
                   <img src={ServicesDigital.src} alt=""/>
               </div>
 
-              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5">
+              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5"  data-aos="fade-right">
                   <div className="d-flex flex-wrap justify-content-end align-items-center">
                     <h2 className="digital-txt mb-4"><strong>02</strong><sub>E-Commerce</sub></h2>
                     <p className="text-right w-100 digital-para">The right Digital / Internet Marketing strategy is the difference between brands that rule consumer minds and those that don’t. Promoting your business in the right places at the right time of the day is crucial to get maximum ROI on your budgets.</p>
@@ -80,7 +80,7 @@ export default function home() {
               </div>
           </div>
         
-        <div className="digital-row d-flex flex-wrap">
+        <div className="digital-row d-flex flex-wrap"  data-aos="zoom-in">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 p-5 text-white digital-column justify-content-center align-items-center d-flex flex-wrap">
               <img src={Digital1.src} alt=""/>
               <p className="m-0 p-0 fs-4 pt-3 display-4 w-100 text-center">Magneto Development</p>
@@ -114,7 +114,7 @@ export default function home() {
 
       <div className="row process text-white mb-5 justify-content-center pt-5 px-5"> 
             <div className="justify-content-between d-flex flex-wrap">
-              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5">
+              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5"  data-aos="fade-left">
                 <div className="d-flex flex-wrap justify-content-start align-items-center">
                   <h2 className="digital-txt mb-4"><strong>03</strong><sub>Graphic Design</sub></h2>
                   <p className="digital-para">The right Digital / Internet Marketing strategy is the difference between brands that rule consumer minds and those that don’t. Promoting your business in the right places at the right time of the day is crucial to get maximum ROI on your budgets.</p>
@@ -122,12 +122,12 @@ export default function home() {
                 </div>
               </div>
 
-              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap">
+              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
                   <img src={ServicesDigital.src} alt=""/>
               </div>
             </div>
        
-        <div className="digital-row d-flex flex-wrap mb-5">
+        <div className="digital-row d-flex flex-wrap mb-5"  data-aos="zoom-in">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 p-5 text-white digital-column justify-content-center align-items-center d-flex flex-wrap">
               <img src={Digital1.src} alt=""/>
               <p className="m-0 p-0 fs-4 pt-3 display-4 w-100 text-center">Website Redesign</p>
@@ -160,13 +160,13 @@ export default function home() {
       </div>
 
 
-      <div className="row process bg-gray text-white mb-5 justify-content-center pt-5 px-5 pb-5"> 
+      <div className="row process bg-gray text-white mb-5 justify-content-center pt-5 px-5 pb-5"  data-aos="fade-left"> 
           <div className="justify-content-between d-flex flex-wrap">
               <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap">
                   <img src={ServicesDigital.src} alt=""/>
               </div>
 
-              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5">
+              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5"  data-aos="fade-right">
                   <div className="d-flex flex-wrap justify-content-end align-items-center">
                     <h2 className="digital-txt mb-4"><strong>04</strong><sub>Web development</sub></h2>
                     <p className="text-right w-100 digital-para">The right Digital / Internet Marketing strategy is the difference between brands that rule consumer minds and those that don’t. Promoting your business in the right places at the right time of the day is crucial to get maximum ROI on your budgets.</p>
@@ -175,7 +175,7 @@ export default function home() {
               </div>
           </div>
         
-        <div className="digital-row d-flex flex-wrap">
+        <div className="digital-row d-flex flex-wrap"  data-aos="zoom-in">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 p-5 text-white digital-column justify-content-center align-items-center d-flex flex-wrap">
               <img src={Digital1.src} alt=""/>
               <p className="m-0 p-0 fs-4 pt-3 display-4 w-100 text-center">PHP Development</p>
@@ -208,7 +208,7 @@ export default function home() {
       </div>
 
 
-      <div className="row process text-white mb-5 justify-content-center pt-5 px-5"> 
+      <div className="row process text-white mb-5 justify-content-center pt-5 px-5"  data-aos="fade-left"> 
             <div className="justify-content-between d-flex flex-wrap">
               <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5">
                 <div className="d-flex flex-wrap justify-content-start align-items-center">
@@ -218,12 +218,12 @@ export default function home() {
                 </div>
               </div>
 
-              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap">
+              <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-end d-flex flex-wrap"  data-aos="fade-right">
                   <img src={ServicesDigital.src} alt=""/>
               </div>
             </div>
        
-        <div className="digital-row d-flex flex-wrap mb-5">
+        <div className="digital-row d-flex flex-wrap mb-5"  data-aos="zoom-in">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 p-5 text-white digital-column justify-content-center align-items-center d-flex flex-wrap">
               <img src={Digital1.src} alt=""/>
               <p className="m-0 p-0 fs-4 pt-3 display-4 w-100 text-center">Digital Marketer</p>
@@ -252,13 +252,13 @@ export default function home() {
       </div>
 
 
-      <div className="row process bg-gray text-white mb-5 justify-content-center pt-5 px-5 pb-5"> 
+      <div className="row process bg-gray text-white mb-5 justify-content-center pt-5 px-5 pb-5"  data-aos="fade-left"> 
           <div className="justify-content-between d-flex flex-wrap">
               <div className="ser-digital col-12 col-sm-6 col-md-6 pb-5 justify-content-start d-flex flex-wrap">
                   <img src={ServicesDigital.src} alt=""/>
               </div>
 
-              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5">
+              <div className="ser-digital-col col-12 col-sm-6 col-md-6 pb-5"  data-aos="fade-right">
                   <div className="d-flex flex-wrap justify-content-end align-items-center">
                     <h2 className="digital-txt mb-4"><strong>06</strong><sub>App Development</sub></h2>
                     <p className="text-right w-100 digital-para">The right Digital / Internet Marketing strategy is the difference between brands that rule consumer minds and those that don’t. Promoting your business in the right places at the right time of the day is crucial to get maximum ROI on your budgets.</p>
@@ -267,7 +267,7 @@ export default function home() {
               </div>
           </div>
         
-        <div className="digital-row d-flex flex-wrap">
+        <div className="digital-row d-flex flex-wrap"  data-aos="zoom-in">
           <div className="col-12 col-sm-6 col-md-4 col-lg-4 p-5 text-white digital-column justify-content-center align-items-center d-flex flex-wrap">
               <img src={Digital1.src} alt=""/>
               <p className="m-0 p-0 fs-4 pt-3 display-4 w-100 text-center">Android App Development</p>

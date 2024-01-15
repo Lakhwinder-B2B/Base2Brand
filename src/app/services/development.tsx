@@ -14,10 +14,10 @@ export default function Development() {
         <div className="p-5"> 
     <div className="container">
 <div className="row text-white  h-100">
-     <div className="col-md-12 text-center mb-5">
+     <div className="col-md-12 text-center mb-5" data-aos="fade-up">
         <h1>Shopify Development Services <br /> Tailored for Success</h1>
      </div>
-     <div className="col-md-6 h-100 mb-4">
+     <div className="col-md-6 h-100 mb-4" data-aos="flip-left">
         <div className="bg_dev">
             <div className="bg_devs">
         <div className="d-flex align-items-center development_data">
@@ -32,7 +32,7 @@ export default function Development() {
      </div>
     </div>
 
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-right">
         <div className="bg_dev">
         <div className="bg_devs"> 
         <div className="d-flex align-items-center development_data">
@@ -47,7 +47,7 @@ export default function Development() {
      </div>
     </div>
 
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-left">
         <div className="bg_dev">
         <div className="bg_devs"> 
         <div className="d-flex align-items-center development_data">
@@ -63,7 +63,7 @@ export default function Development() {
     </div>
 
     
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-right">
         <div className="bg_dev">
         <div className="bg_devs"> 
         <div className="d-flex align-items-center development_data">
@@ -78,7 +78,7 @@ export default function Development() {
      </div>
     </div>
 
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-left">
         <div className="bg_dev">
         <div className="bg_devs"> 
         <div className="d-flex align-items-center development_data">
@@ -93,7 +93,7 @@ export default function Development() {
     </div>
     </div>
 
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-right">
         <div className="bg_dev">
         <div className="bg_devs"> 
         <div className="d-flex align-items-center development_data">
@@ -108,7 +108,7 @@ export default function Development() {
      </div>
     </div>
 
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-left">
         <div className="bg_dev">
         <div className="bg_devs"> 
         <div className="d-flex align-items-center development_data">
@@ -123,7 +123,7 @@ export default function Development() {
      </div>
     </div>
 
-    <div className="col-md-6 h-100 mb-4">
+    <div className="col-md-6 h-100 mb-4" data-aos="flip-right">
         <div className="bg_dev">
         <div className="bg_devs">
 

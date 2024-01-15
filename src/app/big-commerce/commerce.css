@@ -4,6 +4,7 @@ img.icon {
 }
 h1.big {
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     font-size: 80px;
     font-weight: 600;

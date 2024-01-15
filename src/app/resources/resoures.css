@@ -71,12 +71,10 @@ div#v-pills-tab button.active i{
     right: 0px;
 }
 
-
-
 /*-----Tabs------*/
 .item {
   flex-grow: 1;
-  height: 450px;
+  height: 400px;
   background-color: rgb(61, 61, 61);
   position: relative;
   border: 1px solid #1a1a1a;
@@ -84,9 +82,13 @@ div#v-pills-tab button.active i{
 }
 .item:hover {
   flex-grow: 4.3;
+  max-width:360px;
   background-image: url("../../../public/resources/writer.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.item:hover .rotate {
+    align-items: end !important;
 }
 .item h3 {
     position: absolute;
@@ -174,3 +176,18 @@ div#v-pills-tab button.active i{
     transform: rotate(360deg);
 }
 
+.resource-col ul.order-list li span {
+    max-width: 80%;
+}
+
+@media screen and (max-width:1600px) {
+    .resource-col ul.order-list li span {
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .resource-col ul.order-list li span {
+        max-width: 60%;
+    }
+}

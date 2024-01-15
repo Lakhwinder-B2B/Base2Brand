@@ -1,7 +1,7 @@
 .service-banner h1 {
     color: #F47B52;
     font-size: 42px;
-    line-height: 62px;
+    line-height: 52px;
     font-weight: 300;
 }
 .service-banner p {
@@ -54,7 +54,16 @@
 }
 .digital-row .digital-column {
     border: 1px solid #bcbcbc;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
 }
+.digital-row .digital-column:hover {
+    border: 1px solid #F47B52;
+    box-shadow: 0px 2px 20px #F47B52;
+}
+
 .bg-gray {
     background-color: #2d2d2d;
 }

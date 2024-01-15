@@ -4,6 +4,18 @@ border-bottom:1px solid #CACACA;
 .Headerbggray {
     background: #111616 !important;
 }
+.number li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footerMenu ul li:hover {
+    color: #f47b4e !important;
+    padding-left: 20px;
+    transition-duration: 1s;
+}
+.footerMenu ul li:hover a {
+    color: #f47b4e !important;
+}
 li.active {
     border-bottom: 2px solid #f47b52 !important;
 }
@@ -15,6 +27,21 @@ li.active {
     color: #fff;
     padding-left: 0px;
     line-height: 30px;
+    transition-duration: 1s;
+    position:relative;
+}
+.footerMenu ul li::before {
+    position: absolute;
+    content: ">";
+    font-size: 26px;
+    display: none;
+    left: 0px;
+}
+.footerMenu ul li:hover::before {
+    display:block;
+}
+.borderbottom .footerMenu ul li:hover a {
+    color: #f47b4e !important;
 }
 .footerMenu ul { 
     padding-left: 0px;

@@ -13,7 +13,7 @@ export default function onlinereputation() {
             <div className="bg-black">
                 <div className="container-fluid p-5">
                     <div className="row">
-                        <div className="col-12 col-sm-12 col-md-6 text-white">
+                        <div className="col-12 col-sm-12 col-md-6 text-white mb-5 mb-md-0">
                             <h2>Save Your Brand from Negative Publicity</h2>
                             <p>Credit cards can be used to pay for our services through one of the <br /> most trusted and secure payment methods in the world.<br />
                                 To make your payment, you don&apos;t have to register.</p>

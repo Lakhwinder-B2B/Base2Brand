@@ -22,10 +22,10 @@ export default function graphicservices() {
   return (
     <>  
     <div className="p-5 client"> 
-            <div className="graphic-ser-head text-white text-center"  >
+            <div className="graphic-ser-head text-white text-center"  data-aos="fade-up">
                 <h1>OUR CLIENTS</h1>
             </div>
-            <div className="row client-box mt-5 align-items-center justify-content-center">
+            <div className="row client-box mt-5 align-items-center justify-content-center" data-aos="zoom-in">
                 <div className="col-6 col-sm-4 col-md-3 col-lg-3 d-flex justify-content-center"    >
                     <img src={Client1.src} alt="" />
                 </div>

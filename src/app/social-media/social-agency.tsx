@@ -12,7 +12,7 @@ export default function socialagency() {
     <>   
       <div className="container mt-5 pb-5"> 
           <div className="row"> 
-          <div className="text-center text-white mb-5">
+          <div className="text-center text-white mb-5" data-aos="fade-up">
         <h2>Our Social Media Agency Services</h2>
       </div>
 
@@ -29,7 +29,7 @@ export default function socialagency() {
     <div className="col-md-8 desc orderTwo">
     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div className="accordion-body">  
-            <div className="row"> 
+            <div className="row" data-aos="fade-left"> 
                     <div className="seoBox p-4">
                         <h2>Interactive Campaigns</h2>
                         <p>Interactive campaigns often include quizzes, chats, and contests. A photo contest might be initiated that asks people to submit creative pictures of your product. We might also host a video contest to highlight your product or service.</p>
@@ -44,9 +44,11 @@ export default function socialagency() {
                         <li>Citation Building</li>
                         <li>YouTube</li>
                     </ul> 
-                    <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+                    <button className="btn btn-outline-primary m-0"> 
+                    {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+                    Request a Quote </button>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6" data-aos="fade-right">
                             <img className='marketing w-75' src={Tags.src} alt="" /> 
 
                             </div>
@@ -87,7 +89,9 @@ export default function socialagency() {
                         <li>Citation Building</li>
                         <li>Review Generation</li>
                     </ul> 
-                    <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+                    <button className="btn btn-outline-primary m-0"> 
+                    {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+                    Request a Quote </button>
                             </div>
                             <div className="col-md-6">
                             <img className='marketing w-75' src={Tags.src} alt="" /> 
@@ -129,7 +133,9 @@ export default function socialagency() {
                         <li>Citation Building</li>
                         <li>Review Generation</li>
                     </ul> 
-                    <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+                    <button className="btn btn-outline-primary m-0"> 
+                    {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+                    Request a Quote </button>
                             </div>
                             <div className="col-md-6">
                             <img className='marketing w-75' src={Tags.src} alt="" /> 

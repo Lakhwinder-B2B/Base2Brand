@@ -9,9 +9,9 @@ export default function home() {
    
   return (
     <>  
-      <div className="container-fluid pb-5"> 
+      <div className="container-fluid pb-2"> 
         <h1 className="text-white text-center fs-2 font-light">Our Cherished Teams</h1>
-        <div className="row process bg-gray text-white mb-5 justify-content-center px-5 pb-5"> 
+        <div className="row process bg-gray text-white mb-0 justify-content-center px-5 pb-0"> 
             <div className="justify-content-center d-flex flex-wrap align-items-center" data-aos="zoom-in">
                 <div className="col-12 col-sm-6 col-md-6 col-lg-3 pb-5">
                     <img src={Team1.src} alt="" />

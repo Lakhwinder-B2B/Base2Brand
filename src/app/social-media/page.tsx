@@ -33,7 +33,9 @@ export default function seo() {
               /> 
             <p className="text-white">Our dedicated social media managers work 24*7 to deliver effective social media management <br /> and lead generation services to take your business to the new heights.</p>
             <div className="mt-5 text-center">
-                <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+                <button className="btn btn-outline-primary"> 
+                {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+                Request a Quote </button>
                 </div>
             </div>
             <div className="seo"   style={{

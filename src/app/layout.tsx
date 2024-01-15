@@ -3,8 +3,10 @@ import { Inter } from 'next/font/google'
 import './globals.css' 
 import Home from './home-backup'
 import Script from "next/script";
-const inter = Inter({ subsets: ['latin'] })
+// import AnimatedCursor from "react-animated-cursor"; 
 
+const inter = Inter({ subsets: ['latin'] })
+ 
 export const metadata: Metadata = {
   
 }
@@ -14,9 +16,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <html lang="en">
-      <body>
+  
+  return ( 
+    <html lang="en"> 
+      <body> 
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='anonymous'  />
       <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,700;1,100;1,300&display=swap" rel="stylesheet" />
@@ -35,7 +38,19 @@ export default function RootLayout({
   type="text/css"
   href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
 />
- 
+   {/* <AnimatedCursor
+        innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={2}
+  outerAlpha={0}  
+  innerStyle={{
+    backgroundColor: '#fff'
+  }}
+  outerStyle={{
+    border: '3px solid #fff'
+  }}
+      /> */}
       {/* <Home /> */}
       {children}
        

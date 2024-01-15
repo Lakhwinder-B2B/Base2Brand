@@ -11,14 +11,14 @@ export default function revenue() {
    
   return (
     <>  
-      <div className="container-fluid p-5 mt-5"> 
-        <div className="row text-white mb-5"> 
-          <div className="col-12 pb-5 text-center">
+      <div className="container-fluid p-5 mt-md-5 mt-0"> 
+        <div className="row text-white mb-5" data-aos="zoom-in"> 
+          <div className="col-12 pb-5 text-center" data-aos="fade-up">
             <h1 className=" mb-3">Revenue growth through SEO</h1>
             <p className="col-12 col-sm-12 col-lg-7 ppc-para text-center m-auto d-flex flex-wrap">Assuming you are hoping to develop your business, a powerful Search Engine Optimization (SEO) strategy is one of the strongestROI driving inbound advanced techniques. Most of clients currently start the process by discovering items and administrations through the significant web search tools like Google, Yahoo, and Bing.</p>
           </div>
           
-          <div className="col-md-3">
+          <div className="col-md-3" >
             <div className="revenue_bg">
                 <img className="mb-4" src={Revenue1.src} alt="" />
                 <h1 className="web-head">95%</h1>

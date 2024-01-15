@@ -25,10 +25,10 @@ button.btn.btn-outline-primary:hover i {
 }
 button.btn.btn-outline-primary:hover{
 background:#071c4d;
-border: 2px solid #F47B52;
+border: 3px solid #F47B52;
 box-shadow:0px 2px 30px #F47B52;
 transition: 0.4s;
-padding: 12px 30px;
+padding: 10px 30px;
 }
 button.btn.btn-outline-primary {
     border: 3px solid #fff;
@@ -108,46 +108,139 @@ ul.order-list::before {
     left: 30px;
     top: 20px;
     z-index: 1;
+    display:none;
 }
 ul.order-list li img {
     z-index: 11;
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
 }
-.rotate {
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    align-items: center;
+
+@keyframes example {
+  from {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+  }
 }
+
 .flip-slide > div.item:hover .rotate {
-    transform: rotate(0);
-    -webkit-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     align-items: end;
     padding: 10px 15px;
 }
 .flip-slide > div.item:hover .rotate i {
     display:none;
 }
+button.accordion-button.collapsed {
+    background: #2E2E2E !important;
+    margin-top: 2rem;
+    font-size: 18px;
+    padding: 22px 15px;
+}
+
+.needBox{
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
 
 
+.needBox:hover {
+    border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg,#F47B52,blue) border-box;
+    background: -webkit-linear-gradient(45deg,#F47B52,blue) border-box;
+    background: -moz-linear-gradient(45deg,#F47B52,blue) border-box;
+    background: -ms-linear-gradient(45deg,#F47B52,blue) border-box;
+}
+.navbar-nav li.dropdown ul.dropdown-menu li.hover-menus a {
+  color: #000 !important;
+}
+.graphic-banner .rotate {
+  font-size: 15px;
+  padding: 0 10px !important;
+}
+button.carousel-control-next:hover, button.carousel-control-prev:hover {
+  background-color: #F47B52;
+  border-color: #F47B52;
+}
 
+@media only screen and (max-width: 767px){
+  .flickity-prev-next-button.previous {
+    left: 17%;
+    top: 30%;
+}
+.flickity-prev-next-button.next {
+    right: 17%;
+    top: 30%;
+}
+}
+
+/*--------Slider-End-----------*/
+
+@media screen and (max-width:1400px) {
+  .Typewriter span{
+    font-size:62px;
+  }
+}
 @media screen and (max-width: 991px) {
-.nav-link .d-flex.justify-content-between {
-  display: block !important;
+  .nav-link .d-flex.justify-content-between {
+    display: block !important;
+  }
+  .heading_lable h2 {
+    font-size: 30px !important;
+  }
+  .Typewriter span{
+    font-size: 36px !important;
+  }
+  .col.borderStack {
+    flex: 33% !important;
+    width: 33% !important;
+  }
+  .seo {
+    height: 500px !important;
+    background-size: contain !important;
+  }
+  button.btn.btn-outline-primary {
+    padding: 10px 20px;
+  }
+  .digital-row p {
+    font-size: 20px !important;
+    line-height: 27px;
+  }
+  .service-banner h1 {
+    font-size: 36px !important;
+    line-height: 50px !important;
+  } 
+  h1.big {
+    font-size: 60px !important;
+  }
+  .column {
+    min-height: inherit !important;
+  } 
+  .graphmob-none, .graphmob-none img {
+    display: none !important;
+  }
+  .banner-video iframe {
+    height: 100%;
+  }
+  .mobilebanner {
+    height: 600px !important;
+  }
 }
-.heading_lable h2 {
-  font-size: 30px !important;
-}
-.Typewriter span{
-  font-size: 36px !important;
-}
-.col.borderStack {
-  flex: 33% !important;
-  width: 33% !important;
-}
-}
+
 @media screen and (max-width: 767px) {
   .borderStack img {
     height: 50px !important;
@@ -179,5 +272,30 @@ ul.order-list li img {
   }
   .bg_feedback{
       margin-top:2rem;
+  }
+  .service_text{
+    margin-top: 4rem !important;
+} 
+  .seo {
+    height: 300px !important;
+  }  
+  h2.heading {
+    font-size: 42px;
+  }  
+  h1.big {
+    font-size: 50px !important;
+  }
+  img.icon {
+    width: 40px !important;
+    margin-left: 10px !important;
+  } 
+  .flip-slide .item {
+      max-height: 100px;
+  }
+}
+
+@media screen and (max-width:575px) {
+  h1.big {
+    font-size: 32px !important;
   }
 }

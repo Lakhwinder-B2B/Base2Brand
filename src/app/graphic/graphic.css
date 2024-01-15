@@ -91,6 +91,7 @@ button.radius {
     background: #251c30;
     padding: 2em;
     border: 3px solid #F47B52;
+    background-image: linear-gradient(to right, #271218, #0F2227);
 }
 .column {
     min-height: 500px;
@@ -145,10 +146,9 @@ button.radius {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        padding-bottom: 5em;
     }
     .graphic-services .inner-create > div p {
-        text-align: center;
+        text-align: left;
     }
     .graphic-services .inner-create{
         justify-content:center;

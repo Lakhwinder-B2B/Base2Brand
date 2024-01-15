@@ -17,9 +17,11 @@ export default function onlinereputation() {
     <>  
     <Header />
     <div className="bg-black">
-     <img src={banner.src} className="banner_online" alt="" />
-     <div className="overlap_button">
-     <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+      <div className="banner-online-box position-relative">
+        <img src={banner.src} className="banner_online" alt="" />
+          <div className="overlap_button">
+            <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+      </div>
      </div>
     <Publicity />
     <Revenue />

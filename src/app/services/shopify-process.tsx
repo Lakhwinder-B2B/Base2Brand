@@ -28,15 +28,15 @@ export default function ShopifyProcess() {
       left: '50%',
       transform:'translate(-50%, -50%)'
     }}> */}
-    <div className="row text-white justify-content-center">
-    <div className="col-md-12 text-center mb-5">
-        <h2>Shopify Project Completion Process</h2>
-    </div>
+      <div className="row text-white justify-content-center">
+         <div className="col-md-12 text-center mb-5" data-aos="fade-up">
+            <h2>Shopify Project Completion Process</h2>
+         </div>
 
-      <div className="main">
-      <img className='w-100' src={lines.src} alt="" />
-            </div>
-            </div>
+         <div className="main" data-aos="zoom-in">
+            <img className='w-100' src={lines.src} alt="" />
+         </div>
+      </div>
 {/* <div className="row text-white justify-content-center">
     <div className="col-md-12 text-center mb-5">
         <h2>Shopify Project Completion Process</h2>

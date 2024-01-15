@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { useEffect } from "react"; 
+
 import Header from "../../../component/header";
 import AboutMask from "../../../public/about-img/about-mask.png";
 import About from "../../../public/about-img/about.png"
@@ -12,22 +12,18 @@ import Team from "../.././app/team"
 import Quote from "../request-quote";
 import Footer from "../../../component/footer";
 import "../about/about.css";
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+
+
 
 export default function marketing() {
 
-  useEffect(() => {
-    AOS.init({
-         duration: 800,
-         once: false,
-       })
- }, [])
+
+  
 
   return (
     <>
       <Header />
-        <div className="bg_home pt-0 pb-5">
+        <div className="bg_home pt-0 pb-0">
           <div className="about-mask pt-5" data-aos="fade-up" style={{backgroundImage: `url(${AboutMask.src})`,width: '100%',height: '100%',}}>
           <div className="row mb-5 m-0"> 
               <div className="d-flex flex-wrap justify-content-center col-12 col-sm-12 col-md-6 m-auto mb-4" data-aos="slide-down">

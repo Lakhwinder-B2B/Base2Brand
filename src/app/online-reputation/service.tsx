@@ -23,7 +23,7 @@ export default function service() {
                         <img src={service3.src} alt="" className="service_img  m-auto w-50" />
 
                       </div>
-                      <div className="col-md-2 ">
+                      <div className="col-md-2 mob-none">
                         <img src={lines.src} alt="" className="lineImg w-25 m-auto" />
                       </div>
                       <div className="col-md-5">

@@ -15,3 +15,19 @@ p.mb-5.mt-4.army {
     border: 1px solid #fff;
     padding: 30px;
 }
+
+.slick-track {
+    display: flex !important;
+    align-items: center;
+}
+.slick-slide img {
+  transform: scale(.8);
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+}
+.slick-center img {
+  transform: scale(1);
+}
+.slider__item > img {
+  width: 100%;
+  height: auto;
+}

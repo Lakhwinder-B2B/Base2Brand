@@ -8,11 +8,11 @@ export default function home() {
    
   return (
     <>  
-        <div className="container-fluid py-5 pb-5"> 
-            <div className="row resource text-white mb-5 justify-content-center pt-5 px-5"> 
-                <div className="resource-col col-12 col-sm-6 col-md-6 pb-5">
+        <div className="container-fluid py-0 py-md-5 pb-5"> 
+            <div className="row resource text-white mb-5 justify-content-center pt-5 px-3 px-md-5"> 
+                <div className="resource-col col-12 col-sm-12 col-md-12 col-lg-6 pb-5">
                     <div className="d-flex flex-wrap justify-content-start align-items-center">
-                        <h1 className="text-left col-12 col-sm-8 col-md-6 col-lg-6 mb-5">Why Do We Stand Out From The Rest?</h1>
+                        <h1 className="text-left col-12 col-sm-8 mb-5">Why Do We Stand Out From The Rest?</h1>
                         <ul className="order-list d-flex flex-wrap p-0 position-relative">
                             <li className="w-100 d-flex flex-wrap justify-content-start gap-4 align-items-center mb-4"><img src={Order1.src} alt=""/>
                             <span>Our web development service costs are competitive for any project.</span></li>
@@ -28,7 +28,7 @@ export default function home() {
                     </div>
                 </div>
 
-                <div className="resource-col col-12 col-sm-6 col-md-6 pb-5">
+                <div className="resource-col col-12 col-sm-12 col-md-12 col-lg-6" data-aos="flip-left">
                     <div className="d-flex flex-wrap justify-content-start align-items-center">
                         <p className="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since 
                         the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>

@@ -16,7 +16,7 @@ export default function Seoprocess() {
        
         <div className="row"> 
             <div className="col-md-12">
-                <div className="borderBox">
+                <div className="borderBox" >
                     <div className="row align-items-center">
                         <div className="col-md-3">
                             <img src={Process.src} className="w-100" alt="" />

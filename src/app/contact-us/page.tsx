@@ -21,6 +21,7 @@ export default function marketing() {
                 <h2 className="text_primary">Let Meet Together</h2>
                 <p>We will be obliged to have a word with you, if there is anything that you want to ask or <br /> know about, feel free to contact us. Our details are given below:</p>
             </div>
+            <div className="col-md-12">
             <div className="bgWhite mt-5">
             <div className="row">
             <div className="col-md-6">
@@ -93,6 +94,7 @@ export default function marketing() {
            
             </div>
             </div>  
+            </div>
             <div className="col-md-12 mt-5 pt-4">
                 <h1 className="text-center text-white">Wanna Hire Us?</h1>
                 <img src={Wanna.src} className="w-100" alt="" />

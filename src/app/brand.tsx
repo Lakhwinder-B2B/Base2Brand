@@ -16,7 +16,7 @@ export default function home() {
  
   return (  
     <>  
-      <div className="container-fluid p-5 pb-5 mt-5"> 
+      <div className="container-fluid p-5 pb-5 mt-0 mt-md-5"> 
           <div className="row text-white  pb-5"> 
            <div className="col-md-12">
             <div className="bg_blackBrand" data-aos="fade-down">

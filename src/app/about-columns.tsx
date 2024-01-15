@@ -53,7 +53,7 @@ export default function home() {
                     </div>
                 </div>
 
-                <div className="justify-content-between d-flex flex-wrap align-items-center mb-3">
+                <div className="justify-content-between d-flex flex-wrap   mb-3">
                     <div className="ser-digital col-12 col-sm-12 col-md-6 col-lg-4 justify-content-end d-flex flex-wrap" data-aos="fade-left">
                         <img src={About6.src} alt=""/>
                     </div>

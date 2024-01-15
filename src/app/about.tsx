@@ -9,10 +9,10 @@ export default function home() {
  
   return (
     <>  
-      <div className="container p-5 pb-5"> 
+      <div className="container-fluid p-5 pb-5">  
           <div className="row"> 
-            <div className="col-md-6 text-center " data-aos="flip-left"  >
-            <Image width={75} height={100} className="w-75 m-auto" src={About.src} alt="Product" />
+            <div className="col-md-6 text-center mb-5 mb-md-0" data-aos="flip-left"  >
+            <img className="m-auto" src={About.src} alt="Product" />
             </div> 
             <div className="col-md-6 text-white" data-aos="zoom-in"  >
               <h1>About Us</h1> 

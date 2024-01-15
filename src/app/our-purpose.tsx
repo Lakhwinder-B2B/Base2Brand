@@ -11,7 +11,7 @@ export default function home() {
  
   return (
     <>  
-      <div className="container-fluid p-5 pb-5 mt-5"> 
+      <div className="container-fluid p-5 pb-5 mt-md-5 mt-0"> 
           <div className="row text-white mb-5 pb-5"> 
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-2" data-aos="zoom-in">
             <h1>Our Purpose and Motive with Execution Techniques</h1>
@@ -40,11 +40,13 @@ export default function home() {
             </div>
           </div>
         </div>
-        <div className="row text-white mt-5 pt-5"  >
+        <div className="row text-white mt-0 pt-0 mt-md-5 pt-md-5"  >
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 text-left"  >
             <h1>Do not be wise in words</h1>
             <p className="mb-5 mt-4">Implementing the famous proverb “Do not be wise in words, be wise in deeds”, we believe that results speak for themselves!</p>
-            <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+            <button className="btn btn-outline-primary m-0"> 
+            {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+            Request a Quote </button>
           </div>
           <div className="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 borderLeft">
             <div className="borderGradiant position-relative">
@@ -64,7 +66,7 @@ export default function home() {
             <h1><CountUp end={96} />%</h1>  
               <p>INCREASE IN NO. OF VIEWS ON YOUTUBE</p>
             </div>
-            </div>
+            </div> 
         </div>
       </div> 
     </>

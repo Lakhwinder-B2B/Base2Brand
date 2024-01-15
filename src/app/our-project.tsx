@@ -57,7 +57,7 @@ export default function home() {
           </div>
         </div>
       </div> */}
-      <div className="col-md-6"  >
+      <div className="col-md-6 mb-5 mb-md-0"  >
       <img className="w-100" src={pro1.src} alt="Product" />
       
       <a className="name_project">Project Name  <img className="arrow" src={arrow.src} alt="Product" /></a>

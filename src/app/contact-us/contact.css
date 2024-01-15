@@ -46,3 +46,17 @@ button.btn.btn-primary {
     border: none;
     padding: 10px 30px;
 }
+
+
+@media screen and (max-width: 767px) {
+.bgImg p.mb-5.pb-5 {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+.bgImg{
+    height: 600px !important;
+}
+.d-flex.mt-5 {
+    margin-top: 2rem !important;
+}
+}

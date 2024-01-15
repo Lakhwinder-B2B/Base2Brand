@@ -12,14 +12,14 @@ export default function Big_Commerce() {
 
   return (
     <>  
-        <div className="p-5 bg_light_green"> 
+        <div className="p-4 p-md-5 bg_light_green"> 
     <div className="container"> 
 <div className="row text-white align-items-center">
-      <div className="col-md-12 mx-auto text-center">
+      <div className="col-md-12 mx-auto text-center" data-aos="fade-up">
         <h2>BigCommence Services <br /> by Base<span className='text_primary'>2</span>Brand</h2>
         
       </div>
-      <div className="col-md-4 mt-5">
+      <div className="col-md-4 mt-5" data-aos="fade-left">
         <div className="needBox">
             <img src={icon.src} alt="" />
             <div className="p-3 pb-3">
@@ -30,7 +30,7 @@ export default function Big_Commerce() {
         </div>
       </div>
 
-      <div className="col-md-4 mt-5">
+      <div className="col-md-4 mt-5" data-aos="zoom-in">
         <div className="needBox">
             <img src={icon.src} alt="" />
             <div className="p-3 pb-3">
@@ -41,7 +41,7 @@ export default function Big_Commerce() {
         </div>
       </div>
 
-      <div className="col-md-4 mt-5">
+      <div className="col-md-4 mt-5" data-aos="fade-right">
         <div className="needBox">
             <img src={icon.src} alt="" />
             <div className="p-3 pb-3">
@@ -53,7 +53,7 @@ export default function Big_Commerce() {
       </div>
 
 
-      <div className="col-md-4 mt-5">
+      <div className="col-md-4 mt-5" data-aos="fade-left">
         <div className="needBox">
             <img src={icon.src} alt="" />
             <div className="p-3 pb-3">
@@ -63,7 +63,7 @@ export default function Big_Commerce() {
         </div>
       </div>
 
-      <div className="col-md-4 mt-5">
+      <div className="col-md-4 mt-5" data-aos="zoom-in">
         <div className="needBox">
             <img src={icon.src} alt="" />
             <div className="p-3 pb-3">
@@ -72,7 +72,7 @@ export default function Big_Commerce() {
             </div>
         </div>
       </div>
-      <div className="col-md-4 mt-5">
+      <div className="col-md-4 mt-5" data-aos="fade-right">
         <div className="needBox">
             <img src={icon.src} alt="" />
             <div className="p-3 pb-3">
@@ -81,7 +81,7 @@ export default function Big_Commerce() {
             </div>
         </div>
       </div>
-      <div className="col-md-12 mt-5 pt-5">
+      <div className="col-md-12 mt-5 pt-5" data-aos="zoom-in">
       <button className="btn btn-outline-primary"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
 
       </div>
@@ -89,14 +89,13 @@ export default function Big_Commerce() {
 </div>
 
 
-<div className="bg-black mt-5 p-5">
+<div className="bg-black mt-5 p-4 p-md-5" data-aos="fade-left">
     <div className="conatiner">
     <div className="row align-items-center">
-        <div className="col-md-7">
+        <div className="col-md-7 mb-md-0 mb-5">
             <h1 className='text_primary'>BigCommence Theme & App Development</h1>
             <p className='text-white mb-5 desc_big'>BigCommerce is a leading cloud-based eCommerce platform designed for both budding and established businesses.  With its user-friendly interface, it empowers merchants to create captivating online stores, streamline product listings,  and manage sales efficiently.</p>
-            <a className='readMore'>Read More</a>
-
+            <button className="btn btn-outline-primary m-0">Read More</button>
         </div>
         <div className="col-md-5">
             <img src={Big.src} className='bigImg' alt="" />

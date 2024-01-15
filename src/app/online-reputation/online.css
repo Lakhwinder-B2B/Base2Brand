@@ -6,8 +6,8 @@ img.banner_online {
 .overlap_button {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 60px);
-    bottom: 0;
+    transform: translate(-50%, -50%);
+    top: 70%;
 }
 ul.publicity_data li {
     line-height: 2;
@@ -15,4 +15,16 @@ ul.publicity_data li {
 }
 .service_text{
     margin-top: 13rem;
+}
+
+@media screen and (max-width:1100px) {
+    img.banner_online {
+        height: 600px;
+    } 
+}
+
+@media screen and (max-width:991px) {
+    img.banner_online {
+        height: 400px;
+    }
 }

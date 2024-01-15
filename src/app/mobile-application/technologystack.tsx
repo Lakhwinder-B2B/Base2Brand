@@ -18,7 +18,7 @@ export default function technologystack() {
     <>  
       <div className="container-fluid p-5 mb-5"> 
          <div className="row">
-            <div className="col-md-12 text-center text-white mb-5">
+            <div className="col-md-12 text-center text-white mb-5" data-aos="fade-up"> 
                 <h2>Technology Stack</h2>
             </div>
             <div className="col borderStack">

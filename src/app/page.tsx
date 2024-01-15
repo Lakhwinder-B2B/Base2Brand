@@ -1,7 +1,6 @@
 'use client'
 
 import React from "react";
-import { useEffect } from "react";
 import Header from '../../component/header'
 import Footer from '../../component/footer'
 import OurServices from '../app/our-services'
@@ -30,16 +29,10 @@ import logo9 from '../../public/img/logo9.png';
 import polygon from '../../public/img/polygon.png'; 
 import Slider from "react-slick";
 import Typewriter from 'typewriter-effect';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
+
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init({
-         duration: 800,
-         once: false,
-       })
- }, [])
+
   const settings = {
     dots: false,
     arrows : false,
@@ -97,7 +90,9 @@ export default function Home() {
               />
               <p className='text-white mt-5'>Let’s Build something Digital together Web Mobile Marketing Leading Innovative Partner for Start-ups and Enterprises</p>
               <div className="mt-5 text-center">
-              <button className='btn btn-outline-primary'> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
+              <button className='btn btn-outline-primary'> 
+              {/* <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i>  */}
+              Request a Quote </button>
             </div>
             </div>
             <div className="col-md-2 mob-none"  > 

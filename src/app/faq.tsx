@@ -13,10 +13,10 @@ export default function FAQ() {
         <div className="pl-4 pr-4 pb-0 bg_patner"> 
     <div className="container-fluid pb-5 position-relative">
       <div className="row">
-        <div className="col-md-12 text-center mt-5" data-aos="fades-down">
+        <div className="col-md-12 text-center mt-5" data-aos="fade-up">
             <h2 className='text-white'>Answers To Some Questions You May Have</h2>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="flip-left">
         <div className="accordion accordion-flush" id="accordionFlushExample">
   <div className="accordion-item" data-aos="flip-left"  data-aos-easing="linear" data-aos-duration="1500">
     <h2 className="accordion-header fs-4">
@@ -50,7 +50,7 @@ export default function FAQ() {
   </div> 
 </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6" data-aos="flip-right">
         <div className="accordion accordion-flush" id="accordion">
         <div className="accordion-item" data-aos="flip-right"  data-aos-easing="linear" data-aos-duration="1500">
     <h2 className="accordion-header">

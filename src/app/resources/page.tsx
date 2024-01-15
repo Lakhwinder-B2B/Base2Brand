@@ -18,11 +18,11 @@ export default function resources() {
   return (
     <>
       <Header />
-      <div className="bg-black pt-5 pb-5">
+      <div className="bg-black pt-5 pb-0">
         <div className="graphic-banner">
           <div className="mx-auto pt-4 pb-5">
             <div className="row align-items-center m-0 pr-1 pl-1"> 
-                <div className="col-12 col-md-6 text-white">
+                <div className="col-12 col-sm-12 col-md-6 text-white mb-5 mb-md-0" data-aos="flip-left">
                 <Typewriter 
                 options={{
                   strings: ['Resources'],
@@ -33,7 +33,7 @@ export default function resources() {
                <p className="mt-4 mb-5">Outsource Your Web Development to Build a Great and Engaging Website</p>
                <button className="btn btn-outline-primary m-0"> Request a Quote </button>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-sm-12 col-md-6" data-aos="flip-right">
                   {/* <div className="d-flex flex-row-reverse position-relative align-items-end">
                     <div className="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <button className="nav-link active mt-4 w-100 d-flex flex-wrap justify-content-between" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Content Writer <i className="fa fa-chevron-up"></i></button>
@@ -55,16 +55,16 @@ export default function resources() {
 
 
 
-                  <div className="d-flex flex-wrap flex-row-reverse position-relative align-items-end flip-slide">
+                  <div className="d-flex flex-wrap justify-content-end position-relative align-items-end flip-slide">
                     
-                    <div className="col-2 item d-flex flex-wrap justify-content-center text-white" data-order="content">
-                      <div className="d-flex flex-wrap justify-content-between rotate w-100">Content Writer <i className="fa fa-chevron-up"></i></div>
+                    <div className="col-12 col-sm-12 col-md-4 col-xl-2 item d-flex flex-wrap justify-content-center text-white" data-order="content">
+                      <div className="d-flex justify-content-between align-items-center rotate w-100 px-3">Content Writer <i className="fa fa-chevron-up"></i></div>
                     </div>
-                    <div className="col-2 item d-flex flex-wrap justify-content-center text-white" data-order="content">
-                    <div className="d-flex flex-wrap justify-content-between rotate w-100">Shopify Developer <i className="fa fa-chevron-up"></i></div>
+                    <div className="col-12 col-sm-12 col-md-4 col-xl-2 item d-flex flex-wrap justify-content-center text-white" data-order="content">
+                    <div className="d-flex justify-content-between align-items-center rotate w-100 px-3">Shopify Developer <i className="fa fa-chevron-up"></i></div>
                     </div>
-                    <div className="col-2 item d-flex flex-wrap justify-content-center text-white" data-order="content">
-                    <div className="d-flex flex-wrap justify-content-between rotate w-100">UX/UI Designer <i className="fa fa-chevron-up"></i></div>
+                    <div className="col-12 col-sm-12 col-md-4 col-xl-2 item d-flex flex-wrap justify-content-center text-white" data-order="content">
+                    <div className="d-flex justify-content-between align-items-center rotate w-100 px-3">UX/UI Designer <i className="fa fa-chevron-up"></i></div>
                     </div>
                   </div>
                 </div>

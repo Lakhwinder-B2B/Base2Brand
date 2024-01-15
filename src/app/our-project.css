@@ -36,7 +36,7 @@ span.sub_title {
     color: #fff;
 }
 .tab-content.pillPadding {
-    padding: 50px 0rem;
+    padding: 50px 0rem 0 0;
 }
 a.name_project {
     display: flex;
@@ -196,7 +196,7 @@ p.blob_sub {
 }
 button.carousel-control-prev {
     position:static;
-    background: #FF7B00;
+    background: #F47B52;
     width: 40px;
     height: 40px;
     padding: 10px;

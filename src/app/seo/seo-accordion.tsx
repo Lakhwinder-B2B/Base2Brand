@@ -12,21 +12,21 @@ export default function seo() {
     <>   
       <div className="container mt-5 pb-5"> 
           <div className="row"> 
-          <div className="text-center text-white mb-5">
+          <div className="text-center text-white mb-5" data-aos="fade-up">
         <h2>Professional SEO  agency services</h2>
       </div>
 
           <div className="accordion" id="accordionExample">
   <div className="accordion-item">
     <div className="row">
-        <div className="col-md-4 orderOne">
+        <div className="col-md-4 orderOne" data-aos="fade-left">
         <h2 className="accordion-header" id="headingOne">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
       PPC Audits (SEM)
       </button>
     </h2>
         </div>
-    <div className="col-md-8 desc orderTwo">
+    <div className="col-md-8 desc orderTwo" data-aos="fade-right">
     <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div className="accordion-body">  
             <div className="row"> 
@@ -62,14 +62,14 @@ export default function seo() {
   </div>
   <div className="accordion-item">
   <div className="row">
-        <div className="col-md-4 orderOne">
+        <div className="col-md-4 orderOne" data-aos="fade-up">
     <h2 className="accordion-header" id="headingTwo">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Social Advertising
       </button>
     </h2>
     </div>
-    <div className="col-md-8 desc orderTwo">
+    <div className="col-md-8 desc orderTwo" data-aos="fade-left">
     <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div className="accordion-body">
       <div className="row"> 
@@ -88,7 +88,7 @@ export default function seo() {
                     </ul> 
                     <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6" data-aos="fade-right">
                             <img className='marketing w-75' src={Tags.src} alt="" /> 
 
                             </div>
@@ -104,14 +104,14 @@ export default function seo() {
 
   <div className="accordion-item">
   <div className="row">
-        <div className="col-md-4 orderOne">
+        <div className="col-md-4 orderOne" data-aos="fade-up">
     <h2 className="accordion-header" id="headingThree">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
       Google AdWords
       </button>
     </h2>
     </div>
-    <div className="col-md-8 desc orderTwo">
+    <div className="col-md-8 desc orderTwo" data-aos="fade-left">
     <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div className="accordion-body">
       <div className="row"> 
@@ -130,7 +130,7 @@ export default function seo() {
                     </ul> 
                     <button className="btn btn-outline-primary m-0"> <i className="fa fa-hand-o-right fs-4 hide_ic mr-3" aria-hidden="true"></i> Request a Quote </button>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6" data-aos="fade-right">
                             <img className='marketing w-75' src={Tags.src} alt="" /> 
 
                             </div>

@@ -10,8 +10,8 @@ export default function Header() {
   return (
     <footer className='footer'>
         <div className="main_footer p-5">
-      <div className="row">
-        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 mb-4">
+      <div className="row d-flex flex-wrap align-items-center">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-0 mb-4">
         <img src={logo.src} className="FooterLogo" alt="logo"/>
         <div className='social d-flex gap-4 mt-4'>
             <a href="https://www.facebook.com/TechBase2Brand/"><img src={Facebook.src} className="SocialIcon" alt="Facebook"/> </a>
@@ -20,25 +20,25 @@ export default function Header() {
             <a href="https://in.linkedin.com/company/techbase2brand"><img src={Linkedin.src} className="SocialIcon" alt="Linkedin"/> </a>
         </div>
         </div>
-        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 footerMenu">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-0 mb-4 footerMenu">
             <h5>Working Hours:</h5>
-            <ul>
-                <li>Mon-Fri: 9 am- 6 pm</li>
+            <ul className='mb-0'>
+                <li>Mon-Fri: 10am- 7pm</li>
                 <li>Sat-Sun: Holiday</li>
             </ul>
         </div>
-        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 footerMenu">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-0 mb-4 footerMenu">
             <h5>Address:</h5>
-            <ul>
+            <ul className='mb-0'>
                 <li>F-209, Industrial area</li>
                 <li>Phase 8-B, Sector 74, Mohali, 160074</li>
             </ul>
         </div>
-        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-4 footerMenu">
+        <div className="col-12 col-sm-6 col-md-3 col-lg-3 mb-sm-0 mb-4 footerMenu">
             <h5>Hits Up:</h5>
-            <ul>
-                <li>+919041700209 | +918360116967</li>
-                <li>hello@base2brand.com</li>
+            <ul className='number mb-0'>
+                <li><a href="tel:+919041700209">+919041700209</a> | <a href="tel:+918360116967">+918360116967</a></li>
+                <li><a href="mailto:hello@base2brand.com">hello@base2brand.com</a></li>
             </ul>
         </div>
       </div> 
@@ -47,7 +47,7 @@ export default function Header() {
       <div className="row">
         <div className="col footerMenu">
         <h5>Digital Marketing</h5>
-            <ul>
+            <ul className='mb-0'>
                 <li><a href='/googlePPC'>PPC Management</a></li>
                 <li><a href='/seo'>Search Engine Optimization</a></li>
                 <li><a href='/social-media'>Social Media Management</a></li>
@@ -57,7 +57,7 @@ export default function Header() {
         </div>
         <div className="col footerMenu">
         <h5>Web Development</h5>
-            <ul>
+            <ul className='mb-0'>
                 <li>Web Designing</li>
                 <li>Laravel Development</li>
                 <li>MEAN Stack Development</li>
@@ -67,7 +67,7 @@ export default function Header() {
         </div>
         <div className="col footerMenu">
         <h5>Other Services</h5>
-            <ul>
+            <ul className='mb-0'>
                 <li><a href='/graphic'>Graphic Design</a></li>
                 <li><a href='/mobile-application'>App Development</a></li>
                 <li>E-Commerce</li>
@@ -77,7 +77,7 @@ export default function Header() {
             </div>
             <div className="col footerMenu">
             <h5>Quick Links</h5>
-            <ul>
+            <ul className='mb-0'>
                 <li><a href='/services'>Services</a></li>
                 <li><a href='/about'>About Us</a></li>
                 <li>Blogs</li>
@@ -87,7 +87,7 @@ export default function Header() {
                 </div>
                 <div className="col footerMenu">
             <h5>Other Links</h5>
-            <ul>
+            <ul className='mb-0'>
                 <li>Case Studies</li>
                 <li>Privacy policy</li>
                 <li>Cookies Policy</li>
